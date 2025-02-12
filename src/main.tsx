@@ -9,9 +9,7 @@ import { Theme } from "@chakra-ui/react";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Provider>
-      <Theme appearance="dark">
-        <App />
-      </Theme>
+      <App />
     </Provider>
   </StrictMode>
 );
