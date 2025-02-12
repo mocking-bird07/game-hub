@@ -13,6 +13,7 @@ import NavBar from "./components/NavBar";
 import { ThemeProvider } from "next-themes";
 import { Switch } from "@chakra-ui/react";
 import ColorSwitch from "./components/colorSwitch";
+import GameGrid from "./components/GameGrid";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
       </GridItem>
 
       <GridItem colSpan={3} rowSpan={1} h={"100%"}>
-        Aside
+        <GameGrid />
       </GridItem>
     </Grid>
   );
