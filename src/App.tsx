@@ -16,7 +16,7 @@ import GameGenre from "./components/GameGenre";
 function App() {
   return (
     <Grid column={{ sm: 1, md: 1, lg: 2, xl: 2 }}>
-      <GridItem paddingLeft={"10px"} colSpan={6} rowSpan={1} h={"100%"}>
+      <GridItem paddingX={5} colSpan={6} rowSpan={1} h={"100%"} mb={2}>
         <NavBar />
       </GridItem>
 

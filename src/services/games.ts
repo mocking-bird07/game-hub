@@ -1028,7 +1028,7 @@ let games = [
     thumbnail: "https://www.freetogame.com/g/577/thumbnail.jpg",
     short_description: "A social deduction game from World Makers.",
     game_url: "https://www.freetogame.com/open/deceit-2",
-    genre: "Action",
+    genre: "Action Game",
     platform: "PC (Windows)",
     publisher: "World Makers",
     developer: "World Makers",

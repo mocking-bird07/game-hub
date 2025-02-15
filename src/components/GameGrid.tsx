@@ -11,9 +11,9 @@ const GameGrid = () => {
     <SimpleGrid
       columns={{ sm: 1, md: 2, lg: 3, xl: 4 }}
       padding={"10px"}
-      gap={10}
+      gap={3}
       w={"100%"}
-      ml={{ md: "15px" }}
+      ml={{ md: "25px" }}
     >
       {games.map((game) => (
         <GameCard game={game} key={game.id} />
