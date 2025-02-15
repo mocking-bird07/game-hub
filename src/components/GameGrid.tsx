@@ -1,16 +1,24 @@
-import React, { useState } from "react";
-import service from "@/services/service";
-import games from "@/services/game";
+import React, { useEffect, useState } from "react";
+import { Grid, GridItem, SimpleGrid } from "@chakra-ui/react";
+import { Card, Image, Button, Flex } from "@chakra-ui/react";
+import { Avatar } from "./ui/avatar";
+
+import games from "@/services/games";
+import GameCard from "./gameCards";
 
 const GameGrid = () => {
   return (
-    <>
-      <ul>
-        {games.map((game) => (
-          <li key={game.id}>{game.title}</li>
-        ))}
-      </ul>
-    </>
+    <SimpleGrid
+      columns={{ sm: 1, md: 2, lg: 3, xl: 5 }}
+      padding={"10px"}
+      gap={10}
+      w={"100%"}
+      ml={{ md: "15px" }}
+    >
+      {games.map((game) => (
+        <GameCard game={game} key={game.id} />
+      ))}
+    </SimpleGrid>
   );
 };
 
