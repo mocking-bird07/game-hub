@@ -10,6 +10,7 @@ let games = [
     publisher: "Tencent",
     developer: "Level Infinite",
     release_date: "2024-06-22",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/tarisland"
   },
   {
@@ -23,6 +24,7 @@ let games = [
     publisher: "Activision Blizzard",
     developer: "Blizzard Entertainment",
     release_date: "2022-10-04",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/overwatch-2"
   },
   {
@@ -36,6 +38,7 @@ let games = [
     publisher: "KRAFTON, Inc.",
     developer: "KRAFTON, Inc.",
     release_date: "2022-01-12",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/pubg"
   },
   {
@@ -49,6 +52,7 @@ let games = [
     publisher: "Gaijin Entertainment",
     developer: "Darkflow Software",
     release_date: "2021-04-08",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/enlisted"
   },
   {
@@ -62,6 +66,7 @@ let games = [
     publisher: "InnoGames",
     developer: "InnoGames",
     release_date: "2012-04-17",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/forge-of-empires"
   },
   {
@@ -75,6 +80,7 @@ let games = [
     publisher: "Amazon Games",
     developer: "NCSoft",
     release_date: "2024-10-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/throne-and-liberty"
   },
   {
@@ -88,6 +94,7 @@ let games = [
     publisher: "miHoYo",
     developer: "miHoYo",
     release_date: "2020-09-28",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/genshin-impact"
   },
   {
@@ -101,6 +108,7 @@ let games = [
     publisher: "Mediatonic",
     developer: "Mediatonic",
     release_date: "2020-08-04",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/fall-guys"
   },
   {
@@ -114,6 +122,7 @@ let games = [
     publisher: "GTArcade",
     developer: "YOOZOO Games ",
     release_date: "2019-11-14",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/game-of-thrones-winter-is-coming"
   },
   {
@@ -127,6 +136,7 @@ let games = [
     publisher: "InnoGames",
     developer: "InnoGames",
     release_date: "2015-04-08",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/elvenar"
   },
   {
@@ -140,6 +150,7 @@ let games = [
     publisher: "Perfect World Entertainment",
     developer: "Cryptic Studios",
     release_date: "2013-12-06",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/neverwinter"
   },
   {
@@ -153,6 +164,7 @@ let games = [
     publisher: "Bigpoint",
     developer: "Bigpoint",
     release_date: "2006-12-11",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/darkorbit"
   },
   {
@@ -166,6 +178,7 @@ let games = [
     publisher: "Amazon Games",
     developer: "Smilegate RPG",
     release_date: "2022-02-11",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/lost-ark"
   },
   {
@@ -179,6 +192,7 @@ let games = [
     publisher: "Game Hollywood Games",
     developer: "Game Hollywood Games",
     release_date: "2023-12-20",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/titan-revenge"
   },
   {
@@ -192,6 +206,7 @@ let games = [
     publisher: "Blizzard Entertainment",
     developer: "Blizzard Entertainment",
     release_date: "2022-06-02",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/diablo-immortal"
   },
   {
@@ -205,6 +220,7 @@ let games = [
     publisher: "Gala Lab",
     developer: "Gala Lab",
     release_date: "2022-06-14",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/flyff-universe"
   },
   {
@@ -218,6 +234,7 @@ let games = [
     publisher: "Sega",
     developer: "Sega",
     release_date: "2021-06-09",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/pso2-new-genesis"
   },
   {
@@ -231,6 +248,7 @@ let games = [
     publisher: "R2 Games",
     developer: "R2 Games",
     release_date: "2019-05-21",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/eternal-fury"
   },
   {
@@ -244,6 +262,7 @@ let games = [
     publisher: "Targem",
     developer: "Gaijin",
     release_date: "2017-05-30",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/crossout"
   },
   {
@@ -257,6 +276,7 @@ let games = [
     publisher: "Wargaming",
     developer: "Wargaming",
     release_date: "2015-07-02",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/world-of-warships"
   },
   {
@@ -270,6 +290,7 @@ let games = [
     publisher: "Gaijin Entertainment",
     developer: "Gaijin Entertainment",
     release_date: "2013-08-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/war-thunder"
   },
   {
@@ -283,6 +304,7 @@ let games = [
     publisher: "Wargaming",
     developer: "Wargaming",
     release_date: "2011-04-12",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/world-of-tanks"
   },
   {
@@ -296,6 +318,7 @@ let games = [
     publisher: "Singularity Six",
     developer: "Singularity Six",
     release_date: "2023-08-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/palia"
   },
   {
@@ -309,6 +332,7 @@ let games = [
     publisher: "Xbox Game Studios",
     developer: "343 Industries",
     release_date: "2021-11-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/halo-infinite"
   },
   {
@@ -322,6 +346,7 @@ let games = [
     publisher: "Gtarcade",
     developer: "Yoozoo Games",
     release_date: "2020-01-09",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/league-of-angels-heavens-fury"
   },
   {
@@ -335,6 +360,7 @@ let games = [
     publisher: "Perfect World Entertainment",
     developer: " Cryptic Studios",
     release_date: "2010-02-02",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/star-trek-online"
   },
   {
@@ -348,6 +374,7 @@ let games = [
     publisher: "Fen Research LTD",
     developer: "Fen Research LTD",
     release_date: "2024-11-06",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/brighter-shores"
   },
   {
@@ -361,6 +388,7 @@ let games = [
     publisher: "Level Infinite",
     developer: "Hotta Studio",
     release_date: "2022-08-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/tower-of-fantasy"
   },
   {
@@ -374,6 +402,7 @@ let games = [
     publisher: "Riot Games",
     developer: "Riot Games",
     release_date: "2020-06-02",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/valorant"
   },
   {
@@ -387,6 +416,7 @@ let games = [
     publisher: "SEGA",
     developer: "SEGA",
     release_date: "2020-05-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/pso2"
   },
   {
@@ -400,6 +430,7 @@ let games = [
     publisher: "Activision",
     developer: "Infinity Ward",
     release_date: "2020-03-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/call-of-duty-warzone"
   },
   {
@@ -413,6 +444,7 @@ let games = [
     publisher: "Bungie",
     developer: "Bungie",
     release_date: "2019-10-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/destiny-2"
   },
   {
@@ -426,6 +458,7 @@ let games = [
     publisher: "Phoenix Labs",
     developer: "Phoenix Labs, Iron Galaxy",
     release_date: "2019-05-21",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dauntless"
   },
   {
@@ -439,6 +472,7 @@ let games = [
     publisher: "Electronic Arts",
     developer: "Electronic Arts",
     release_date: "2019-02-04",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/apex-legends"
   },
   {
@@ -452,6 +486,7 @@ let games = [
     publisher: "Epic Games",
     developer: "Epic Games",
     release_date: "2017-09-26",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/fortnite-battle-royale"
   },
   {
@@ -465,6 +500,7 @@ let games = [
     publisher: "Sandbox Interactive GmbH",
     developer: "Sandbox Interactive GmbH",
     release_date: "2017-07-17",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/albion-online"
   },
   {
@@ -478,6 +514,7 @@ let games = [
     publisher: "NCSoft",
     developer: "NCSoft",
     release_date: "2016-01-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/blade-and-soul"
   },
   {
@@ -491,6 +528,7 @@ let games = [
     publisher: "Blue Mammoth Games",
     developer: "Blue Mammoth Games",
     release_date: "2015-11-03",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/brawlhalla"
   },
   {
@@ -504,6 +542,7 @@ let games = [
     publisher: "Trion Worlds",
     developer: "Trion Worlds",
     release_date: "2015-07-09",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/trove"
   },
   {
@@ -517,6 +556,7 @@ let games = [
     publisher: "Digital Extremes",
     developer: "Digital Extremes",
     release_date: "2013-03-25",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/warframe"
   },
   {
@@ -530,6 +570,7 @@ let games = [
     publisher: "NCsoft",
     developer: "ArenaNet",
     release_date: "2012-08-28",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/guild-wars-2"
   },
   {
@@ -543,6 +584,7 @@ let games = [
     publisher: "Goodgame Studios",
     developer: "Goodgame Studios",
     release_date: "2011-08-14",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/goodgame-empire"
   },
   {
@@ -556,6 +598,7 @@ let games = [
     publisher: "Bigpoint",
     developer: "Bigpoint",
     release_date: "2011-08-08",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/drakensang-online"
   },
   {
@@ -569,6 +612,7 @@ let games = [
     publisher: "Jagex",
     developer: "Jagex",
     release_date: "2001-01-04",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/runescape"
   },
   {
@@ -582,6 +626,7 @@ let games = [
     publisher: "FireFly Studios",
     developer: "FireFly Studios",
     release_date: "2012-02-28",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/stronghold-kingdoms"
   },
   {
@@ -595,6 +640,7 @@ let games = [
     publisher: "NetEase",
     developer: "NetEase",
     release_date: "2024-12-06",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/marvel-rivals"
   },
   {
@@ -608,6 +654,7 @@ let games = [
     publisher: "TiMi Studio Group",
     developer: "Team Jade",
     release_date: "2024-12-04",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/delta-force"
   },
   {
@@ -621,6 +668,7 @@ let games = [
     publisher: "iDreamSky",
     developer: "iDreamSky",
     release_date: "2024-11-21",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/strinova"
   },
   {
@@ -634,6 +682,7 @@ let games = [
     publisher: "Theorycraft Games",
     developer: "Theorycraft Games",
     release_date: "2024-11-20",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/supervive"
   },
   {
@@ -647,6 +696,7 @@ let games = [
     publisher: "Solid Clouds hf.",
     developer: "Solid Clouds hf.",
     release_date: "2024-10-14",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/starborne-frontiers"
   },
   {
@@ -660,6 +710,7 @@ let games = [
     publisher: "KOG",
     developer: "KOG",
     release_date: "2024-10-23",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/return-alive"
   },
   {
@@ -673,6 +724,7 @@ let games = [
     publisher: "Mountaintop Studios",
     developer: "Mountaintop Studios",
     release_date: "2024-09-03",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/spectre-divide"
   },
   {
@@ -686,6 +738,7 @@ let games = [
     publisher: "Bohemia Interactive ",
     developer: "Bohemia Interactive",
     release_date: "2024-09-18",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/vigor"
   },
   {
@@ -699,6 +752,7 @@ let games = [
     publisher: "Hi-Rez Studios",
     developer: "Titan Forge Games",
     release_date: "2024-08-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/smite-2"
   },
   {
@@ -712,6 +766,7 @@ let games = [
     publisher: "Nexon",
     developer: "Nexon Games Co., Ltd.",
     release_date: "2024-07-02",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/the-first-descendant"
   },
   {
@@ -725,6 +780,7 @@ let games = [
     publisher: "Starry Studio",
     developer: "Starry Studio",
     release_date: "2024-07-09",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/once-human"
   },
   {
@@ -738,6 +794,7 @@ let games = [
     publisher: "Frost Giant Studios",
     developer: "Frost Giant Studios",
     release_date: "2024-07-30",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/stormgate"
   },
   {
@@ -751,6 +808,7 @@ let games = [
     publisher: "Dynamight Studios",
     developer: "Dynamight Studios",
     release_date: "2024-07-24",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/fractured-online"
   },
   {
@@ -764,6 +822,7 @@ let games = [
     publisher: "NCSoft",
     developer: "NCSoft",
     release_date: "2024-06-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/battle-crush"
   },
   {
@@ -777,6 +836,7 @@ let games = [
     publisher: "Comico Games",
     developer: "Comico Games",
     release_date: "2024-05-13",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/screenplay"
   },
   {
@@ -790,6 +850,7 @@ let games = [
     publisher: "Stone Blade Entertainment",
     developer: "Richard Garfield, Justin Gary",
     release_date: "2024-04-16",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/solforge-fusion"
   },
   {
@@ -803,6 +864,7 @@ let games = [
     publisher: "thatgamecompany",
     developer: "thatgamecompany",
     release_date: "2024-04-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/sky-children-of-the-light"
   },
   {
@@ -816,6 +878,7 @@ let games = [
     publisher: "Omeda Studios",
     developer: "Omeda Studios",
     release_date: "2024-03-28",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/predecessor"
   },
   {
@@ -829,6 +892,7 @@ let games = [
     publisher: "Breach.gg, RedTigerPro",
     developer: "Breach.gg",
     release_date: "2024-03-29",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/project-apidom"
   },
   {
@@ -842,6 +906,7 @@ let games = [
     publisher: "Tavernlight Games",
     developer: "Tavernlight Games",
     release_date: "2024-01-16",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/ravendawn"
   },
   {
@@ -855,6 +920,7 @@ let games = [
     publisher: "Valofe",
     developer: "Valofe",
     release_date: "2024-01-25",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/kritika"
   },
   {
@@ -868,6 +934,7 @@ let games = [
     publisher: "Perfect World Games",
     developer: "Crunchyroll",
     release_date: "2024-01-31",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/one-punch-man-world"
   },
   {
@@ -881,6 +948,7 @@ let games = [
     publisher: "Wizard Games Global",
     developer: "Wizard Games Global",
     release_date: "2024-01-31",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/battle-teams-2"
   },
   {
@@ -894,6 +962,7 @@ let games = [
     publisher: "Embark Studios",
     developer: "Embark Studios",
     release_date: "2023-12-07",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/the-finals"
   },
   {
@@ -907,6 +976,7 @@ let games = [
     publisher: "NetEase Games",
     developer: "NetEase Games",
     release_date: "2023-12-22",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/infinite-borders"
   },
   {
@@ -920,6 +990,7 @@ let games = [
     publisher: "Fobia",
     developer: "Fobia",
     release_date: "2023-11-03",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/destinys-divide"
   },
   {
@@ -933,6 +1004,7 @@ let games = [
     publisher: "Everguild Ltd.",
     developer: "Everguild Ltd.",
     release_date: "2023-10-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/warhammer-40000-warpforge"
   },
   {
@@ -946,6 +1018,7 @@ let games = [
     publisher: "Masangsoft",
     developer: "Masangsoft",
     release_date: "2023-09-08",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/microvolts"
   },
   {
@@ -959,6 +1032,7 @@ let games = [
     publisher: "World Makers",
     developer: "World Makers",
     release_date: "2023-09-14",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/deceit-2"
   },
   {
@@ -972,6 +1046,7 @@ let games = [
     publisher: "My.Games",
     developer: "My.Games",
     release_date: "2023-08-03",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/hawked"
   },
   {
@@ -985,6 +1060,7 @@ let games = [
     publisher: "Coke And Code",
     developer: "Coke And Code",
     release_date: "2023-08-08",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/tales-of-yore"
   },
   {
@@ -998,6 +1074,7 @@ let games = [
     publisher: "Ankama Studio",
     developer: "Ankama Games",
     release_date: "2023-08-16",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/waven"
   },
   {
@@ -1011,6 +1088,7 @@ let games = [
     publisher: "BlankMediaGames LLC",
     developer: "BlankMediaGames LLC",
     release_date: "2023-08-25",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/town-of-salem-2"
   },
   {
@@ -1024,6 +1102,7 @@ let games = [
     publisher: "24 Entertainment",
     developer: "NetEase",
     release_date: "2023-07-13",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/naraka-bladepoint"
   },
   {
@@ -1037,6 +1116,7 @@ let games = [
     publisher: "Level Infinite",
     developer: "LightSpeed Studios",
     release_date: "2023-06-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/undawn"
   },
   {
@@ -1050,6 +1130,7 @@ let games = [
     publisher: "X-Legend Entertainment",
     developer: "X-Legend Entertainment",
     release_date: "2023-05-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/eden-eternal"
   },
   {
@@ -1063,6 +1144,7 @@ let games = [
     publisher: "Nexon Games Co., LTC",
     developer: "Nexon",
     release_date: "2023-05-18",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/veiled-experts"
   },
   {
@@ -1076,6 +1158,7 @@ let games = [
     publisher: "THQ Nordic",
     developer: "PowWow Entertainment",
     release_date: "2023-05-04",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/jected-rivals"
   },
   {
@@ -1089,6 +1172,7 @@ let games = [
     publisher: " Gellyberry Studios",
     developer: " Gellyberry Studios",
     release_date: "2023-05-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/ethyrial-echoes-of-yore"
   },
   {
@@ -1102,6 +1186,7 @@ let games = [
     publisher: "Plaion",
     developer: "Toylogic Inc.",
     release_date: "2023-01-24",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/warlander"
   },
   {
@@ -1115,6 +1200,7 @@ let games = [
     publisher: "EXBO",
     developer: "EXBO",
     release_date: "2022-12-09",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/stalcraft-x"
   },
   {
@@ -1128,6 +1214,7 @@ let games = [
     publisher: "Hidden Leaf Games",
     developer: "Hidden Leaf Games",
     release_date: "2022-11-30",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/fangs"
   },
   {
@@ -1141,6 +1228,7 @@ let games = [
     publisher: "Com2uS",
     developer: "Com2uS",
     release_date: "2022-11-09",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/summoners-war-chronicles"
   },
   {
@@ -1154,6 +1242,7 @@ let games = [
     publisher: "Nuverse",
     developer: "Second Dinner Studios, Inc.",
     release_date: "2022-10-18",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/marvel-snap"
   },
   {
@@ -1167,6 +1256,7 @@ let games = [
     publisher: "Playside",
     developer: "Playside",
     release_date: "2022-10-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/world-boss"
   },
   {
@@ -1180,6 +1270,7 @@ let games = [
     publisher: "Odyssey Interactive",
     developer: "Odyssey Interactive",
     release_date: "2022-09-16",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/omega-strikers"
   },
   {
@@ -1193,6 +1284,7 @@ let games = [
     publisher: "Bandai Namco",
     developer: "Bandai Namco",
     release_date: "2022-09-21",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/gundam-evolution"
   },
   {
@@ -1206,6 +1298,7 @@ let games = [
     publisher: "Simutronics Corp.",
     developer: "Simutronics Corp.",
     release_date: "2022-09-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/galahad-3093"
   },
   {
@@ -1219,6 +1312,7 @@ let games = [
     publisher: "Anisage Games",
     developer: "Anisage Games",
     release_date: "2022-08-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/aero-tales-online"
   },
   {
@@ -1232,6 +1326,7 @@ let games = [
     publisher: "Wizards of the Coast LLC",
     developer: "Pipeworks Studios, Seismic Games",
     release_date: "2022-08-05",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/magic-spellslingers"
   },
   {
@@ -1245,6 +1340,7 @@ let games = [
     publisher: "NEOWIZ",
     developer: "NEOWIZ",
     release_date: "2022-08-24",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/ava"
   },
   {
@@ -1258,6 +1354,7 @@ let games = [
     publisher: "NetEase Games",
     developer: "NetEase Games",
     release_date: "2022-08-04",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/lost-light"
   },
   {
@@ -1271,6 +1368,7 @@ let games = [
     publisher: "Leonardo Interactive",
     developer: "MoonWolf Entertainment, A2 Softworks",
     release_date: "2022-07-26",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/temperia"
   },
   {
@@ -1284,6 +1382,7 @@ let games = [
     publisher: "Warner Bros. Games",
     developer: "Player First Games",
     release_date: "2022-07-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/multiversus"
   },
   {
@@ -1297,6 +1396,7 @@ let games = [
     publisher: "Level Infinite",
     developer: "Pixel soft",
     release_date: "2022-07-14",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/chimeraland"
   },
   {
@@ -1310,6 +1410,7 @@ let games = [
     publisher: "F5 Game Company Limited",
     developer: "R2 Games",
     release_date: "2022-06-13",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/world-of-runes"
   },
   {
@@ -1323,6 +1424,7 @@ let games = [
     publisher: "Ubisoft",
     developer: "Ubisoft",
     release_date: "2022-05-25",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/roller-champions"
   },
   {
@@ -1336,6 +1438,7 @@ let games = [
     publisher: "Gaggle Studios, Inc.",
     developer: "Gaggle Studios, Inc.",
     release_date: "2021-10-03",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/goose-goose-duck"
   },
   {
@@ -1349,6 +1452,7 @@ let games = [
     publisher: "Bad Fox Studios",
     developer: "Bad Fox Studios",
     release_date: "2021-06-25",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/super-squad"
   },
   {
@@ -1362,6 +1466,7 @@ let games = [
     publisher: "CAGE Studios",
     developer: "CAGE Studios",
     release_date: "2021-05-12",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/sherwood-extreme"
   },
   {
@@ -1375,6 +1480,7 @@ let games = [
     publisher: "LINE Games Corporation",
     developer: "5minlab",
     release_date: "2021-04-13",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/smash-legends"
   },
   {
@@ -1388,6 +1494,7 @@ let games = [
     publisher: "Wire Games",
     developer: "Global Dodo Entertainment",
     release_date: "2021-03-04",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/primordials-battle-of-gods"
   },
   {
@@ -1401,6 +1508,7 @@ let games = [
     publisher: "NetEase Games",
     developer: "NetEase Games",
     release_date: "2021-03-25",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/super-mecha-champions"
   },
   {
@@ -1414,6 +1522,7 @@ let games = [
     publisher: "WhisperGames",
     developer: "Clarity Games",
     release_date: "2021-01-28",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/chroma-bloom-and-blight"
   },
   {
@@ -1427,6 +1536,7 @@ let games = [
     publisher: "Third Kind Games",
     developer: "Mythical Games Inc",
     release_date: "2020-12-11",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/blankos"
   },
   {
@@ -1440,6 +1550,7 @@ let games = [
     publisher: "Oddshot Games",
     developer: "Oddshot Games",
     release_date: "2020-12-07",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/slapshot-rebound"
   },
   {
@@ -1453,6 +1564,7 @@ let games = [
     publisher: "Hi-Rez Studios",
     developer: "First Watch Games",
     release_date: "2020-10-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/rogue-company"
   },
   {
@@ -1466,6 +1578,7 @@ let games = [
     publisher: "Nimble Neuron",
     developer: "Nimble Neuron",
     release_date: "2020-10-14",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/eternal-return"
   },
   {
@@ -1479,6 +1592,7 @@ let games = [
     publisher: "YC Games",
     developer: "YC Games",
     release_date: "2020-10-20",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/blood-of-steel"
   },
   {
@@ -1492,6 +1606,7 @@ let games = [
     publisher: "Proletariat",
     developer: "Proletariat",
     release_date: "2020-09-04",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/spellbreak"
   },
   {
@@ -1505,6 +1620,7 @@ let games = [
     publisher: "Psyonix LLC",
     developer: "Psyonix LLC",
     release_date: "2020-09-24",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/rocket-league"
   },
   {
@@ -1518,6 +1634,7 @@ let games = [
     publisher: "R2 Games",
     developer: "R2 Games",
     release_date: "2020-07-20",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/armor-valor"
   },
   {
@@ -1531,6 +1648,7 @@ let games = [
     publisher: "New Blood Interactive",
     developer: "Geoff 'Zag' Keene",
     release_date: "2020-06-12",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/unfortunate-spacemen"
   },
   {
@@ -1544,6 +1662,7 @@ let games = [
     publisher: "101XP",
     developer: "101XP",
     release_date: "2020-06-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/jade-goddess"
   },
   {
@@ -1557,6 +1676,7 @@ let games = [
     publisher: "Kabam Games, Inc.",
     developer: "Kabam Games, Inc.",
     release_date: "2020-05-05",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/shop-titans"
   },
   {
@@ -1570,6 +1690,7 @@ let games = [
     publisher: "R2 Games",
     developer: "GameHollywood",
     release_date: "2020-04-07",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/survivor-legacy"
   },
   {
@@ -1583,6 +1704,7 @@ let games = [
     publisher: "Giant Duck Games",
     developer: "Giant Duck Games",
     release_date: "2020-03-07",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/bombergrounds-battle-royale"
   },
   {
@@ -1596,6 +1718,7 @@ let games = [
     publisher: "ViVa Games",
     developer: "ViVa Games",
     release_date: "2020-02-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/kakale-online"
   },
   {
@@ -1609,6 +1732,7 @@ let games = [
     publisher: "Scavengers Studio",
     developer: "Scavengers Studio",
     release_date: "2020-01-14",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/darwin-project"
   },
   {
@@ -1622,6 +1746,7 @@ let games = [
     publisher: "Riot Games",
     developer: "Riot Games",
     release_date: "2020-01-24",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/runeterra"
   },
   {
@@ -1635,6 +1760,7 @@ let games = [
     publisher: "Gaijin Distribution KFT",
     developer: "Darkflow Software",
     release_date: "2019-12-12",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/crsed"
   },
   {
@@ -1648,6 +1774,7 @@ let games = [
     publisher: "Retrelon Games",
     developer: "Retrelon Games",
     release_date: "2019-12-24",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/mirage-online-classic"
   },
   {
@@ -1661,6 +1788,7 @@ let games = [
     publisher: "INFERNA LIMITED",
     developer: "INFERNA LIMITED",
     release_date: "2019-12-21",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/inferna"
   },
   {
@@ -1674,6 +1802,7 @@ let games = [
     publisher: "Gameforge",
     developer: "Moonmana",
     release_date: "2019-12-02",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/ultimate-pirates"
   },
   {
@@ -1687,6 +1816,7 @@ let games = [
     publisher: "Mobile Technologies LLC",
     developer: "Mobile Technologies LLC",
     release_date: "2019-11-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/stay-out"
   },
   {
@@ -1700,6 +1830,7 @@ let games = [
     publisher: "IDG GAmes",
     developer: "IDG GAmes",
     release_date: "2019-11-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/futbol-legends"
   },
   {
@@ -1713,6 +1844,7 @@ let games = [
     publisher: "R2 Games",
     developer: "F5 Game Company",
     release_date: "2019-11-07",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/vampire-empire"
   },
   {
@@ -1726,6 +1858,7 @@ let games = [
     publisher: "Holyday Studios",
     developer: "Holyday Studios",
     release_date: "2019-09-26",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/firestone-idle-rpg"
   },
   {
@@ -1739,6 +1872,7 @@ let games = [
     publisher: "Rhino Games Inc.",
     developer: "Rhino Games Inc.",
     release_date: "2019-09-18",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/mythgard"
   },
   {
@@ -1752,6 +1886,7 @@ let games = [
     publisher: "Opogame",
     developer: "Opogame",
     release_date: "2019-08-06",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dark-knight"
   },
   {
@@ -1765,6 +1900,7 @@ let games = [
     publisher: "Citadel Studios Inc",
     developer: "Citadel Studios Inc",
     release_date: "2019-08-07",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/legends-of-aria"
   },
   {
@@ -1778,6 +1914,7 @@ let games = [
     publisher: "Crunchy Leaf Games",
     developer: "Crunchy Leaf Games",
     release_date: "2019-08-30",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/crystal-clash"
   },
   {
@@ -1791,6 +1928,7 @@ let games = [
     publisher: "Valve",
     developer: "Valve",
     release_date: "2019-06-21",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dota-underlords"
   },
   {
@@ -1804,6 +1942,7 @@ let games = [
     publisher: "Betadwarf",
     developer: "Betadwarf",
     release_date: "2019-05-24",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/minion-masters"
   },
   {
@@ -1817,6 +1956,7 @@ let games = [
     publisher: "1047 Games",
     developer: "1047 Games",
     release_date: "2019-05-22",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/splitgate-arena-warfare"
   },
   {
@@ -1830,6 +1970,7 @@ let games = [
     publisher: "Booming Games",
     developer: "Booming Games",
     release_date: "2019-05-30",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/conquerors-blade"
   },
   {
@@ -1843,6 +1984,7 @@ let games = [
     publisher: "PG5-Studio UG",
     developer: "PG5-Studio UG",
     release_date: "2019-04-24",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/steinworld"
   },
   {
@@ -1856,6 +1998,7 @@ let games = [
     publisher: "1939 Games",
     developer: "1939 Games",
     release_date: "2019-04-12",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/kards"
   },
   {
@@ -1869,6 +2012,7 @@ let games = [
     publisher: "KOG",
     developer: "KOG",
     release_date: "2019-04-30",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/kurtzpel"
   },
   {
@@ -1882,6 +2026,7 @@ let games = [
     publisher: "R2 Games",
     developer: "R2 Games",
     release_date: "2019-04-29",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/the-third-age"
   },
   {
@@ -1895,6 +2040,7 @@ let games = [
     publisher: "Dire Wolf Digital",
     developer: "Dire Wolf Digital",
     release_date: "2018-11-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/eternal"
   },
   {
@@ -1908,6 +2054,7 @@ let games = [
     publisher: "Valve",
     developer: "Valve",
     release_date: "2018-11-29",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/artifact"
   },
   {
@@ -1921,6 +2068,7 @@ let games = [
     publisher: "Wishlist Games, The 4 Winds Entertainment",
     developer: "The Farm 51",
     release_date: "2018-10-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/world-war-3"
   },
   {
@@ -1934,6 +2082,7 @@ let games = [
     publisher: "VALOFE, NEXON",
     developer: "Doobic Studios",
     release_date: "2018-10-31",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/combat-arms"
   },
   {
@@ -1947,6 +2096,7 @@ let games = [
     publisher: "Grey Box",
     developer: "Yager Development",
     release_date: "2018-10-14",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dreadnought"
   },
   {
@@ -1960,6 +2110,7 @@ let games = [
     publisher: " MercurySteam Entertainment",
     developer: "MercurySteam",
     release_date: "2018-09-22",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/spacelords"
   },
   {
@@ -1973,6 +2124,7 @@ let games = [
     publisher: "Stunlock Studios",
     developer: "Stunlock Studios",
     release_date: "2018-09-26",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/battlerite-royale"
   },
   {
@@ -1986,6 +2138,7 @@ let games = [
     publisher: "Wizards of the Coast",
     developer: "Wizards of the Coast",
     release_date: "2018-09-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/mtg-arena"
   },
   {
@@ -1999,6 +2152,7 @@ let games = [
     publisher: "GTArcade Entertainment",
     developer: "GTArcade Entertainment",
     release_date: "2018-08-14",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/league-of-angels-3"
   },
   {
@@ -2012,6 +2166,7 @@ let games = [
     publisher: "Papaya Play",
     developer: "Vertigo Games",
     release_date: "2018-07-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/blackshot"
   },
   {
@@ -2025,6 +2180,7 @@ let games = [
     publisher: "Pegnio Ltd",
     developer: "Pegnio Ltd",
     release_date: "2018-06-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/cosmos-invictus"
   },
   {
@@ -2038,6 +2194,7 @@ let games = [
     publisher: "Goodgame Studios",
     developer: "Goodgame Studios",
     release_date: "2018-06-28",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/empireww3"
   },
   {
@@ -2051,6 +2208,7 @@ let games = [
     publisher: "Landfall",
     developer: "Landfall",
     release_date: "2018-06-06",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/tabg"
   },
   {
@@ -2064,6 +2222,7 @@ let games = [
     publisher: "AlphaSoft LLC",
     developer: "AlphaSoft LLC",
     release_date: "2018-04-05",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/will-to-live"
   },
   {
@@ -2077,6 +2236,7 @@ let games = [
     publisher: "Espirit Games",
     developer: "Espirit Games",
     release_date: "2018-03-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/battle-arena-heroes-adventure"
   },
   {
@@ -2090,6 +2250,7 @@ let games = [
     publisher: "Frogsong Studios AB",
     developer: "Frogsong Studios AB",
     release_date: "2018-03-13",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/spellsworn"
   },
   {
@@ -2103,6 +2264,7 @@ let games = [
     publisher: "Daybreak Game Company",
     developer: "Daybreak Game Company",
     release_date: "2018-02-28",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/z1-battle-royale"
   },
   {
@@ -2116,6 +2278,7 @@ let games = [
     publisher: "Toasty Leaf AB",
     developer: "Toasty Leaf AB",
     release_date: "2018-02-23",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/tale-of-toast"
   },
   {
@@ -2129,6 +2292,7 @@ let games = [
     publisher: "G・O・P",
     developer: "VALOFE",
     release_date: "2018-02-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/soulworker"
   },
   {
@@ -2142,6 +2306,7 @@ let games = [
     publisher: "David Schneider",
     developer: "David Schneider",
     release_date: "2018-02-12",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/bombtag"
   },
   {
@@ -2155,6 +2320,7 @@ let games = [
     publisher: "WipleGames Inc.",
     developer: "WipleGames Inc.",
     release_date: "2018-02-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/ironsight"
   },
   {
@@ -2168,6 +2334,7 @@ let games = [
     publisher: "801",
     developer: "801",
     release_date: "2018-02-13",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dead-maze"
   },
   {
@@ -2181,6 +2348,7 @@ let games = [
     publisher: "NETGAME Inc",
     developer: "MGAME Corporation",
     release_date: "2018-01-30",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/scions-of-fate"
   },
   {
@@ -2194,6 +2362,7 @@ let games = [
     publisher: "Juvty Worlds Ltd.",
     developer: "Juvty Worlds Ltd.",
     release_date: "2017-12-18",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/wild-terra-online"
   },
   {
@@ -2207,6 +2376,7 @@ let games = [
     publisher: "SubaGames",
     developer: "PixelSoft",
     release_date: "2017-12-29",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/global-adventures"
   },
   {
@@ -2220,6 +2390,7 @@ let games = [
     publisher: "En Masse Entertainment",
     developer: "Naddic Games",
     release_date: "2017-12-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/closers"
   },
   {
@@ -2233,6 +2404,7 @@ let games = [
     publisher: "Papaya Play",
     developer: "Actoz Soft",
     release_date: "2017-11-17",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/la-tale"
   },
   {
@@ -2246,6 +2418,7 @@ let games = [
     publisher: "Suba Games",
     developer: "Suba Games",
     release_date: "2017-10-17",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/luna-online"
   },
   {
@@ -2259,6 +2432,7 @@ let games = [
     publisher: "Ediogames",
     developer: "Ediogames",
     release_date: "2017-09-12",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/the-ultimatest-battle"
   },
   {
@@ -2272,6 +2446,7 @@ let games = [
     publisher: "Bad Seed",
     developer: "Bad Seed",
     release_date: "2017-09-07",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/insidia"
   },
   {
@@ -2298,6 +2473,7 @@ let games = [
     publisher: "VivaGame",
     developer: "VivaGame",
     release_date: "2017-08-29",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/gods-origin"
   },
   {
@@ -2311,6 +2487,7 @@ let games = [
     publisher: "NEOWIZ",
     developer: "NS Studio",
     release_date: "2017-07-28",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/black-squad"
   },
   {
@@ -2324,6 +2501,7 @@ let games = [
     publisher: "Funcom",
     developer: "Funcom",
     release_date: "2017-07-31",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/secret-world-legends"
   },
   {
@@ -2337,6 +2515,7 @@ let games = [
     publisher: "Bohemia Interactive",
     developer: "Bohemia Interactive",
     release_date: "2017-06-22",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/argo"
   },
   {
@@ -2350,6 +2529,7 @@ let games = [
     publisher: "Kukouri Mobile Entertainment ",
     developer: "Kukouri Mobile Entertainment ",
     release_date: "2017-06-09",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/pixel-worlds"
   },
   {
@@ -2363,6 +2543,7 @@ let games = [
     publisher: "Automaton",
     developer: "Automaton",
     release_date: "2017-05-03",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/deceit"
   },
   {
@@ -2376,6 +2557,7 @@ let games = [
     publisher: "CD Projekt Red",
     developer: "CD Projekt Red",
     release_date: "2017-05-24",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/gwent"
   },
   {
@@ -2389,6 +2571,7 @@ let games = [
     publisher: "Ronimo Games",
     developer: "Ronimo Games",
     release_date: "2017-05-24",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/awesomenauts"
   },
   {
@@ -2402,6 +2585,7 @@ let games = [
     publisher: "Reactive Drop",
     developer: "Reactive Drop",
     release_date: "2017-04-20",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/alien-swarm-reactive-drop"
   },
   {
@@ -2415,6 +2599,7 @@ let games = [
     publisher: "United Soft Media",
     developer: "Exozet",
     release_date: "2017-04-25",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/catan-universe"
   },
   {
@@ -2428,6 +2613,7 @@ let games = [
     publisher: "Ankama Games",
     developer: "Ankama Studio",
     release_date: "2017-04-12",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/krosmaga"
   },
   {
@@ -2441,6 +2627,7 @@ let games = [
     publisher: "AMZ Games",
     developer: "AMZ Games",
     release_date: "2017-04-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/chronicles-of-eidola"
   },
   {
@@ -2454,6 +2641,7 @@ let games = [
     publisher: "My.com",
     developer: "NetEase",
     release_date: "2017-03-06",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/revelation-online"
   },
   {
@@ -2467,6 +2655,7 @@ let games = [
     publisher: "VALOFE",
     developer: "VALOFE",
     release_date: "2017-03-23",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/mu-legend"
   },
   {
@@ -2480,6 +2669,7 @@ let games = [
     publisher: "Gameforge",
     developer: "Virtys",
     release_date: "2017-03-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/therian-saga"
   },
   {
@@ -2493,6 +2683,7 @@ let games = [
     publisher: "BISBOG SA",
     developer: "Kyy Games",
     release_date: "2017-02-08",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/cabals-card-blitz"
   },
   {
@@ -2506,6 +2697,7 @@ let games = [
     publisher: "BlackSpot Entertainment",
     developer: "BlackSpot Entertainment",
     release_date: "2017-01-31",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/line-of-sight"
   },
   {
@@ -2519,6 +2711,7 @@ let games = [
     publisher: "Proficient city",
     developer: "Game Hollywood",
     release_date: "2017-01-03",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dragon-awaken"
   },
   {
@@ -2532,6 +2725,7 @@ let games = [
     publisher: "OP Productions LLC",
     developer: "Fredaikis AB",
     release_date: "2016-11-22",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/infestation-new-z"
   },
   {
@@ -2545,6 +2739,7 @@ let games = [
     publisher: "SkyReacher Entertainment",
     developer: "SkyReacher Entertainment",
     release_date: "2016-11-11",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/one-tower"
   },
   {
@@ -2558,6 +2753,7 @@ let games = [
     publisher: "Cygames, Inc.",
     developer: "Cygames, Inc.",
     release_date: "2016-10-28",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/shadowverse"
   },
   {
@@ -2571,6 +2767,7 @@ let games = [
     publisher: "Artix Entertainment",
     developer: "Artix Entertainment",
     release_date: "2016-10-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/adventurequest-3d"
   },
   {
@@ -2584,6 +2781,7 @@ let games = [
     publisher: "Artplant",
     developer: "Artplant",
     release_date: "2016-09-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/riding-club-championships"
   },
   {
@@ -2597,6 +2795,7 @@ let games = [
     publisher: "Stunlock Studios",
     developer: "Stunlock Studios",
     release_date: "2016-09-21",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/battlerite"
   },
   {
@@ -2610,6 +2809,7 @@ let games = [
     publisher: "Hi-Rez Studios",
     developer: "Hi-Rez Studios",
     release_date: "2016-09-16",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/paladins"
   },
   {
@@ -2623,6 +2823,7 @@ let games = [
     publisher: "ZiMAD, Inc.",
     developer: "ZiMAD, Inc.",
     release_date: "2016-09-08",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/star-crusade"
   },
   {
@@ -2636,6 +2837,7 @@ let games = [
     publisher: "Proficient City",
     developer: "Game Hollywood",
     release_date: "2016-08-25",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/omega-zodiac"
   },
   {
@@ -2649,6 +2851,7 @@ let games = [
     publisher: "Bethesda Softworks",
     developer: "Bethesda Softworks",
     release_date: "2016-08-04",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/elder-scrolls-legends"
   },
   {
@@ -2662,6 +2865,7 @@ let games = [
     publisher: "VALOFE",
     developer: "WeMade",
     release_date: "2016-07-06",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/riders-of-icarus"
   },
   {
@@ -2675,6 +2879,7 @@ let games = [
     publisher: "OAS Games",
     developer: "Bandai Namco",
     release_date: "2016-07-20",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/naruto-online"
   },
   {
@@ -2688,6 +2893,7 @@ let games = [
     publisher: "IDC/Games",
     developer: "IDC/Games",
     release_date: "2016-06-23",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/zula"
   },
   {
@@ -2701,6 +2907,7 @@ let games = [
     publisher: "DiP Online",
     developer: "DiP Online",
     release_date: "2016-06-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/luckcatchers"
   },
   {
@@ -2714,6 +2921,7 @@ let games = [
     publisher: "Bad Pixel",
     developer: "Bad Pixel",
     release_date: "2016-06-08",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/ufo-online-invasion"
   },
   {
@@ -2727,6 +2935,7 @@ let games = [
     publisher: "IDC/Games",
     developer: "Gamemag",
     release_date: "2016-06-07",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/weapons-of-mythology"
   },
   {
@@ -2740,6 +2949,7 @@ let games = [
     publisher: "IMC Games",
     developer: "IMC Games",
     release_date: "2016-05-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/tree-of-savior"
   },
   {
@@ -2753,6 +2963,7 @@ let games = [
     publisher: "Crunchy Games",
     developer: "Crunchy Games",
     release_date: "2016-05-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/starbreak"
   },
   {
@@ -2766,6 +2977,7 @@ let games = [
     publisher: "Cold Tea Studio ",
     developer: "Cold Tea Studio ",
     release_date: "2016-05-06",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/fantasy-tales-online"
   },
   {
@@ -2779,6 +2991,7 @@ let games = [
     publisher: "101XP",
     developer: "101XP",
     release_date: "2016-04-16",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dragon-blood"
   },
   {
@@ -2792,6 +3005,7 @@ let games = [
     publisher: "GTArcade",
     developer: "GTArcade",
     release_date: "2016-04-06",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/league-angels-2"
   },
   {
@@ -2805,6 +3019,7 @@ let games = [
     publisher: "Apus Software",
     developer: "Apus Software",
     release_date: "2016-03-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/astral-heroes"
   },
   {
@@ -2818,6 +3033,7 @@ let games = [
     publisher: "Versus Evil",
     developer: "BitCake Studio",
     release_date: "2016-03-24",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/holodrive"
   },
   {
@@ -2831,6 +3047,7 @@ let games = [
     publisher: "ESTsoft",
     developer: "ESTsoft",
     release_date: "2016-02-17",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/cabal-online"
   },
   {
@@ -2844,6 +3061,7 @@ let games = [
     publisher: "Atom Republic",
     developer: "Atom Republic",
     release_date: "2016-02-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/atom-universe"
   },
   {
@@ -2857,6 +3075,7 @@ let games = [
     publisher: "Dream Reactor",
     developer: "Dream Reactor",
     release_date: "2016-02-02",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/spellweaver"
   },
   {
@@ -2870,6 +3089,7 @@ let games = [
     publisher: "AMZgame",
     developer: "AMZgame",
     release_date: "2016-01-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/clash-of-avatars"
   },
   {
@@ -2883,6 +3103,7 @@ let games = [
     publisher: "Rocketeer Games",
     developer: "Rocketeer Games",
     release_date: "2015-12-23",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/wt3"
   },
   {
@@ -2896,6 +3117,7 @@ let games = [
     publisher: "KIXEYE",
     developer: "KIXEYE",
     release_date: "2015-12-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/vega-conflict"
   },
   {
@@ -2909,6 +3131,7 @@ let games = [
     publisher: "GDT Limited",
     developer: "GDT Limited",
     release_date: "2015-12-11",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/metal-war-online"
   },
   {
@@ -2922,6 +3145,7 @@ let games = [
     publisher: "Tactic Studios Inc.",
     developer: "Tactic Studios Inc.",
     release_date: "2015-12-03",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/immortal-empire"
   },
   {
@@ -2935,6 +3159,7 @@ let games = [
     publisher: "Piranha Games Inc.",
     developer: "Piranha Games Inc.",
     release_date: "2015-12-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/mechwarrior-online"
   },
   {
@@ -2948,6 +3173,7 @@ let games = [
     publisher: "My.com (Mail.ru Group)",
     developer: "Obsidian Entertainment",
     release_date: "2015-10-08",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/armored-warfare"
   },
   {
@@ -2961,6 +3187,7 @@ let games = [
     publisher: "U.S. Army",
     developer: "U.S. Army",
     release_date: "2015-10-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/americas-army"
   },
   {
@@ -2974,6 +3201,7 @@ let games = [
     publisher: "JoyGames",
     developer: "JoyGames",
     release_date: "2015-09-25",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/one-piece-online-2"
   },
   {
@@ -2987,6 +3215,7 @@ let games = [
     publisher: "GmbH",
     developer: "Drago Entertainment",
     release_date: "2015-09-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/otherland"
   },
   {
@@ -3000,6 +3229,7 @@ let games = [
     publisher: "Microsoft",
     developer: "Turn 10",
     release_date: "2015-09-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/forza-motorsport-6-apex"
   },
   {
@@ -3013,6 +3243,7 @@ let games = [
     publisher: "Goodgame Empire",
     developer: "Goodgame Studios",
     release_date: "2015-08-20",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/legends-of-honor"
   },
   {
@@ -3026,6 +3257,7 @@ let games = [
     publisher: "37Games",
     developer: "37Games Entertainment",
     release_date: "2015-08-07",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/felspire"
   },
   {
@@ -3039,6 +3271,7 @@ let games = [
     publisher: "WARTEAM",
     developer: "WARTEAM",
     release_date: "2015-08-26",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/warmode"
   },
   {
@@ -3052,6 +3285,7 @@ let games = [
     publisher: "NIKITA ONLINE",
     developer: "NIKITA ONLINE",
     release_date: "2015-08-18",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/sphere-3"
   },
   {
@@ -3065,6 +3299,7 @@ let games = [
     publisher: "Fishing Planet LLC",
     developer: "Fishing Planet LLC",
     release_date: "2015-08-11",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/fishing-planet"
   },
   {
@@ -3078,6 +3313,7 @@ let games = [
     publisher: "Jarbit",
     developer: "Jarbit",
     release_date: "2015-07-17",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/aberoth"
   },
   {
@@ -3091,6 +3327,7 @@ let games = [
     publisher: "Hoobalugalar_X",
     developer: "Hoobalugalar_X",
     release_date: "2015-07-18",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/codename-cure"
   },
   {
@@ -3104,6 +3341,7 @@ let games = [
     publisher: "My.com",
     developer: "Allods Team & Obsidian Entertainment Collaboration",
     release_date: "2015-07-16",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/skyforge"
   },
   {
@@ -3117,6 +3355,7 @@ let games = [
     publisher: "Blue Manchu",
     developer: "Blue Manchu",
     release_date: "2015-07-14",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/card-hunter"
   },
   {
@@ -3130,6 +3369,7 @@ let games = [
     publisher: "Bethesda Game Studios",
     developer: "Bethesda Game Studios",
     release_date: "2015-06-14",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/fallout-shelter"
   },
   {
@@ -3143,6 +3383,7 @@ let games = [
     publisher: "AMZGame",
     developer: "AMZGame",
     release_date: "2015-06-03",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/lords-road"
   },
   {
@@ -3156,6 +3397,7 @@ let games = [
     publisher: "Mortal Moments",
     developer: "John Carver",
     release_date: "2015-06-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/salem"
   },
   {
@@ -3169,6 +3411,7 @@ let games = [
     publisher: " Blizzard Entertainment",
     developer: " Blizzard Entertainment",
     release_date: "2015-06-02",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/heroes-of-the-storm"
   },
   {
@@ -3182,6 +3425,7 @@ let games = [
     publisher: "\r\nWarchest Ltd.",
     developer: "Splash Damage",
     release_date: "2015-06-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dirty-bomb"
   },
   {
@@ -3195,6 +3439,7 @@ let games = [
     publisher: "Plarium",
     developer: "Plarium",
     release_date: "2015-04-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/vikings-war-of-clans"
   },
   {
@@ -3208,6 +3453,7 @@ let games = [
     publisher: "GameSamba",
     developer: "GameSamba",
     release_date: "2015-04-07",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/star-trek-alien-domain"
   },
   {
@@ -3221,6 +3467,7 @@ let games = [
     publisher: "Jagex",
     developer: "Jagex, Artplant",
     release_date: "2015-04-30",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/block-n-load"
   },
   {
@@ -3234,6 +3481,7 @@ let games = [
     publisher: "Vostok Games",
     developer: "Vostok Games",
     release_date: "2015-04-02",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/survarium"
   },
   {
@@ -3247,6 +3495,7 @@ let games = [
     publisher: "Neople",
     developer: "Neople (Subsidiary of Nexon)",
     release_date: "2015-03-24",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dungeon-fighter-online"
   },
   {
@@ -3260,6 +3509,7 @@ let games = [
     publisher: "Omniconnection",
     developer: "Omniconnection",
     release_date: "2015-02-04",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/grimoire-manastorm"
   },
   {
@@ -3273,6 +3523,7 @@ let games = [
     publisher: "Eiyland LLC",
     developer: "Eiyland LLC",
     release_date: "2015-01-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/starcolony"
   },
   {
@@ -3286,6 +3537,7 @@ let games = [
     publisher: "JoyGames",
     developer: "JoyGames",
     release_date: "2015-01-22",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/one-piece-online"
   },
   {
@@ -3299,6 +3551,7 @@ let games = [
     publisher: "Atelier 801",
     developer: "Atelier 801",
     release_date: "2015-01-30",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/transformice"
   },
   {
@@ -3312,6 +3565,7 @@ let games = [
     publisher: "Doctor Entertainment",
     developer: "Doctor Entertainment",
     release_date: "2015-01-29",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/gear-up"
   },
   {
@@ -3325,6 +3579,7 @@ let games = [
     publisher: "Archive Entertainment ",
     developer: "Archive Entertainment ",
     release_date: "2015-01-26",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/8bitmmo"
   },
   {
@@ -3338,6 +3593,7 @@ let games = [
     publisher: "37Games Entertainment",
     developer: "37Games Entertainment",
     release_date: "2014-12-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/siegelord"
   },
   {
@@ -3351,6 +3607,7 @@ let games = [
     publisher: "Trendy Entertainment",
     developer: "Trendy Entertainment",
     release_date: "2014-12-05",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dungeon-defenders-2"
   },
   {
@@ -3364,6 +3621,7 @@ let games = [
     publisher: "Shumkov Dmitriy",
     developer: "Shumkov Dmitriy",
     release_date: "2014-11-05",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/blockade-3d"
   },
   {
@@ -3377,6 +3635,7 @@ let games = [
     publisher: "Hunted Cow Studios",
     developer: "Hunted Cow Studios",
     release_date: "2014-11-05",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/eldevin"
   },
   {
@@ -3390,6 +3649,7 @@ let games = [
     publisher: "Double Action Factory ",
     developer: "Double Action Factory ",
     release_date: "2014-10-23",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/double-action"
   },
   {
@@ -3403,6 +3663,7 @@ let games = [
     publisher: "Desert Owl Games LLC ",
     developer: "Desert Owl Games LLC ",
     release_date: "2014-10-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/pox-nora"
   },
   {
@@ -3416,6 +3677,7 @@ let games = [
     publisher: "Nexon Europe GmbH",
     developer: "Nexon",
     release_date: "2014-10-07",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/counter-strike-nexon"
   },
   {
@@ -3429,6 +3691,7 @@ let games = [
     publisher: "Papaya Play ",
     developer: "KOEI TECMO GAMES CO., LTD. ",
     release_date: "2014-10-03",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/uncharted-waters-online"
   },
   {
@@ -3442,6 +3705,7 @@ let games = [
     publisher: "Kakao Games",
     developer: "XL Games",
     release_date: "2014-09-04",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/archeage"
   },
   {
@@ -3455,6 +3719,7 @@ let games = [
     publisher: "InnoGames",
     developer: "InnoGames",
     release_date: "2014-09-02",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/tribal-wars-2"
   },
   {
@@ -3468,6 +3733,7 @@ let games = [
     publisher: "Ankama Games",
     developer: "Ankama Studio",
     release_date: "2014-09-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/wakfu"
   },
   {
@@ -3481,6 +3747,7 @@ let games = [
     publisher: "Lightmare Studios",
     developer: "Lightmare Studios",
     release_date: "2014-09-05",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/infinity-wars"
   },
   {
@@ -3494,6 +3761,7 @@ let games = [
     publisher: "Suba Games ",
     developer: "GamePrix ",
     release_date: "2014-08-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/divine-souls"
   },
   {
@@ -3507,6 +3775,7 @@ let games = [
     publisher: "Cosmic Cow LLC",
     developer: "Cosmic Cow LLC",
     release_date: "2014-08-13",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/cubic-castles"
   },
   {
@@ -3520,6 +3789,7 @@ let games = [
     publisher: "Playful Corporation",
     developer: "Playful Corporation",
     release_date: "2014-08-12",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/creativerse"
   },
   {
@@ -3533,6 +3803,7 @@ let games = [
     publisher: "1C Online Games ",
     developer: "Katauri ",
     release_date: "2014-08-06",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/royal-quest"
   },
   {
@@ -3546,6 +3817,7 @@ let games = [
     publisher: "Masthead Studios Ltd, Thegamewallstudios, Gamigo AG",
     developer: "Masthead Studios Ltd",
     release_date: "2014-08-05",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/guns-and-robots"
   },
   {
@@ -3559,6 +3831,7 @@ let games = [
     publisher: "GoGames",
     developer: "GoGames",
     release_date: "2014-07-14",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/bleach-online"
   },
   {
@@ -3572,6 +3845,7 @@ let games = [
     publisher: "Freejam",
     developer: "Freejam",
     release_date: "2014-07-08",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/robocraft"
   },
   {
@@ -3585,6 +3859,7 @@ let games = [
     publisher: "Smartly Dressed Games",
     developer: "Smartly Dressed Games",
     release_date: "2014-07-08",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/unturned"
   },
   {
@@ -3598,6 +3873,7 @@ let games = [
     publisher: "Crytek",
     developer: "Crytek",
     release_date: "2014-07-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/warface"
   },
   {
@@ -3611,6 +3887,7 @@ let games = [
     publisher: "Joycity",
     developer: "Joycity",
     release_date: "2014-06-20",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/freestyle2-street-basketball"
   },
   {
@@ -3624,6 +3901,7 @@ let games = [
     publisher: "Fistful of Frags Team",
     developer: "Fistful of Frags Team",
     release_date: "2014-05-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/fistful-of-frags"
   },
   {
@@ -3637,6 +3915,7 @@ let games = [
     publisher: "MAIET Entertainme",
     developer: "MAIET Entertainme",
     release_date: "2014-05-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/gunz-2"
   },
   {
@@ -3650,6 +3929,7 @@ let games = [
     publisher: "CodeBrush Games",
     developer: "CodeBrush Games",
     release_date: "2014-04-25",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/archeblade"
   },
   {
@@ -3663,6 +3943,7 @@ let games = [
     publisher: "Mad Otter Games",
     developer: "Mad Otter Games",
     release_date: "2014-04-17",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/villagers-and-heroes"
   },
   {
@@ -3676,6 +3957,7 @@ let games = [
     publisher: "Hex Entertainment, Gameforge",
     developer: "Cryptozoic Entertainment",
     release_date: "2014-04-11",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/hex"
   },
   {
@@ -3689,6 +3971,7 @@ let games = [
     publisher: "Spyr",
     developer: "Spyr",
     release_date: "2014-03-00",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/pocket-starships"
   },
   {
@@ -3702,6 +3985,7 @@ let games = [
     publisher: "Plarium",
     developer: "Plarium",
     release_date: "2014-03-13",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/sparta-war-empires"
   },
   {
@@ -3715,6 +3999,7 @@ let games = [
     publisher: "Hi-Rez Studios",
     developer: "Hi-Rez Studios",
     release_date: "2014-03-25",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/smite"
   },
   {
@@ -3728,6 +4013,7 @@ let games = [
     publisher: "Cyanide",
     developer: "Cyanide",
     release_date: "2014-02-04",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dogs-war-online"
   },
   {
@@ -3741,6 +4027,7 @@ let games = [
     publisher: "Blizzard Entertainment",
     developer: "Blizzard Entertainment",
     release_date: "2014-01-21",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/hearthstone-heroes-warcraft"
   },
   {
@@ -3754,6 +4041,7 @@ let games = [
     publisher: "Suba Games",
     developer: "Playcoco (Subsidiary of Gamania)",
     release_date: "2014-01-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/lucent-heart"
   },
   {
@@ -3767,6 +4055,7 @@ let games = [
     publisher: "GTArcade",
     developer: "Youzu Interactive",
     release_date: "2013-12-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/league-of-angels"
   },
   {
@@ -3780,6 +4069,7 @@ let games = [
     publisher: "X-Legend",
     developer: "X-Legend",
     release_date: "2013-12-23",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/aura-kingdom"
   },
   {
@@ -3793,6 +4083,7 @@ let games = [
     publisher: "Aeria, R2Games",
     developer: "R2Games",
     release_date: "2013-11-20",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/crystal-saga"
   },
   {
@@ -3806,6 +4097,7 @@ let games = [
     publisher: "Wargaming",
     developer: "Wargaming",
     release_date: "2013-11-12",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/world-of-warplanes"
   },
   {
@@ -3819,6 +4111,7 @@ let games = [
     publisher: "Trion Worlds",
     developer: "Trion Worlds",
     release_date: "2013-10-24",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/rift"
   },
   {
@@ -3832,6 +4125,7 @@ let games = [
     publisher: "Grinding Gear Games",
     developer: "Grinding Gear Games",
     release_date: "2013-10-23",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/path-of-exile"
   },
   {
@@ -3845,6 +4139,7 @@ let games = [
     publisher: "Plarium Games",
     developer: "Plarium Games",
     release_date: "2013-08-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/soldiers-inc"
   },
   {
@@ -3858,6 +4153,7 @@ let games = [
     publisher: "Plarium Games",
     developer: "Plarium Games",
     release_date: "2013-08-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/nords-heroes-north"
   },
   {
@@ -3871,6 +4167,7 @@ let games = [
     publisher: "Valve",
     developer: "Valve",
     release_date: "2013-07-09",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dota-2"
   },
   {
@@ -3884,6 +4181,7 @@ let games = [
     publisher: "Gravity Interactive",
     developer: "Gravity, Inc.",
     release_date: "2013-05-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/ragnarok-online-2"
   },
   {
@@ -3897,6 +4195,7 @@ let games = [
     publisher: "Panzar",
     developer: "Troxit Service",
     release_date: "2013-04-12",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/panzar"
   },
   {
@@ -3910,6 +4209,7 @@ let games = [
     publisher: "Reverie World Studios, INC",
     developer: "Reverie World Studios, INC",
     release_date: "2013-04-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/kingdom-wars"
   },
   {
@@ -3923,6 +4223,7 @@ let games = [
     publisher: "NGD Studios",
     developer: "NGD Studios",
     release_date: "2013-02-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/champions-of-regnum"
   },
   {
@@ -3936,6 +4237,7 @@ let games = [
     publisher: "Gaijin Entertainment",
     developer: "Star Gem Inc.",
     release_date: "2013-02-28",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/star-conflict"
   },
   {
@@ -3949,6 +4251,7 @@ let games = [
     publisher: "Bright Future",
     developer: "Travian Games",
     release_date: "2013-01-13",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/rail-nation"
   },
   {
@@ -3962,6 +4265,7 @@ let games = [
     publisher: "momoStorm Entertainment",
     developer: "momoStorm",
     release_date: "2013-01-29",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/epic-card-battle"
   },
   {
@@ -3975,6 +4279,7 @@ let games = [
     publisher: "Snail Games",
     developer: "Snail Games",
     release_date: "2012-12-20",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/age-of-wushu"
   },
   {
@@ -3988,6 +4293,7 @@ let games = [
     publisher: "Daybreak Games",
     developer: "Daybreak Games",
     release_date: "2012-12-13",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/everquest"
   },
   {
@@ -4001,6 +4307,7 @@ let games = [
     publisher: "Nexon America Inc. ",
     developer: "NEXON Korea Corp.",
     release_date: "2012-12-06",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/mabinogi"
   },
   {
@@ -4014,6 +4321,7 @@ let games = [
     publisher: "Plarium",
     developer: "Plarium",
     release_date: "2012-11-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/stormfall-age-war"
   },
   {
@@ -4027,6 +4335,7 @@ let games = [
     publisher: "Daybreak Games",
     developer: "Daybreak Games",
     release_date: "2012-11-21",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/planetside-2"
   },
   {
@@ -4040,6 +4349,7 @@ let games = [
     publisher: "Carbon Games",
     developer: "Carbon Games",
     release_date: "2012-11-08",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/airmech"
   },
   {
@@ -4053,6 +4363,7 @@ let games = [
     publisher: "GoodGame Studios",
     developer: "GoodGame Studios",
     release_date: "2012-10-29",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/big-farm"
   },
   {
@@ -4066,6 +4377,7 @@ let games = [
     publisher: "R2 Games",
     developer: "7Th Road",
     release_date: "2012-10-25",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/wartune"
   },
   {
@@ -4079,6 +4391,7 @@ let games = [
     publisher: "KingsIsle Entertainment",
     developer: "KingsIsle Entertainment",
     release_date: "2012-10-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/pirate-101"
   },
   {
@@ -4092,6 +4405,7 @@ let games = [
     publisher: "Splitscreen S.",
     developer: "Splits. S",
     release_date: "2012-09-12",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dino-storm"
   },
   {
@@ -4105,6 +4419,7 @@ let games = [
     publisher: "Ubisoft",
     developer: "Blue Byte",
     release_date: "2012-09-11",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/the-settlers-online"
   },
   {
@@ -4118,6 +4433,7 @@ let games = [
     publisher: "Webzen",
     developer: "NHN Games (Acquired by Webzen)",
     release_date: "2012-09-13",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/c9"
   },
   {
@@ -4131,6 +4447,7 @@ let games = [
     publisher: "Valve",
     developer: "Valve, Hidden Path Entertainment",
     release_date: "2012-08-21",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/counter-strike-global-offensive"
   },
   {
@@ -4144,6 +4461,7 @@ let games = [
     publisher: "Warner Bros. Interactive Entertainment",
     developer: "Monolith Productions, Inc.",
     release_date: "2012-08-31",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/gotham-city-impostors"
   },
   {
@@ -4157,6 +4475,7 @@ let games = [
     publisher: "Marxnet",
     developer: "Marxnet",
     release_date: "2012-07-18",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/rpg-mo"
   },
   {
@@ -4170,6 +4489,7 @@ let games = [
     publisher: "Kabam",
     developer: "Wild Shadow Studios",
     release_date: "2012-02-21",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/realm-mad-god"
   },
   {
@@ -4183,6 +4503,7 @@ let games = [
     publisher: "Plarium Games",
     developer: "Plarium Games",
     release_date: "2012-02-12",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/pirates-tides-fortune"
   },
   {
@@ -4196,6 +4517,7 @@ let games = [
     publisher: "Electronic Arts",
     developer: "Bioware",
     release_date: "2011-12-20",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/swtor"
   },
   {
@@ -4209,6 +4531,7 @@ let games = [
     publisher: "Lever Games",
     developer: "No More Room in Hell Team",
     release_date: "2011-10-31",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/no-more-room-in-hell"
   },
   {
@@ -4222,6 +4545,7 @@ let games = [
     publisher: "MOVE ON USA CO.",
     developer: "Move Games Co., Ltd.",
     release_date: "2011-10-20",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/digimon-masters-online"
   },
   {
@@ -4235,6 +4559,7 @@ let games = [
     publisher: " Eyedentity Games Inc.",
     developer: " Eyedentity Games Inc.",
     release_date: "2011-09-28",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dragon-nest"
   },
   {
@@ -4248,6 +4573,7 @@ let games = [
     publisher: "Suba Games",
     developer: "Kingsoft",
     release_date: "2011-07-08",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/mat"
   },
   {
@@ -4261,6 +4587,7 @@ let games = [
     publisher: "SEGA",
     developer: "Three Rings",
     release_date: "2011-06-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/spiral-knights"
   },
   {
@@ -4274,6 +4601,7 @@ let games = [
     publisher: "Splitscreen Studios",
     developer: "Splitscreen Studios",
     release_date: "2011-06-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/steel-legions"
   },
   {
@@ -4287,6 +4615,7 @@ let games = [
     publisher: "GamenGame",
     developer: "Maxonsoft",
     release_date: "2011-05-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/asda-global"
   },
   {
@@ -4300,6 +4629,7 @@ let games = [
     publisher: "Bethesda Softworks",
     developer: "Splash Damage",
     release_date: "2011-05-09",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/brink"
   },
   {
@@ -4313,6 +4643,7 @@ let games = [
     publisher: "My.com",
     developer: "Allods Team",
     release_date: "2011-04-26",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/allods-online"
   },
   {
@@ -4326,6 +4657,7 @@ let games = [
     publisher: "KOG Games",
     developer: "KOG",
     release_date: "2011-03-23",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/elsword"
   },
   {
@@ -4339,6 +4671,7 @@ let games = [
     publisher: "Daybreak Games",
     developer: "Daybreak Games",
     release_date: "2011-01-11",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dcuo"
   },
   {
@@ -4352,6 +4685,7 @@ let games = [
     publisher: "Stunlock Studios",
     developer: "Stunlock Studios",
     release_date: "2011-01-13",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/bloodline-champions"
   },
   {
@@ -4365,6 +4699,7 @@ let games = [
     publisher: "CyberStep",
     developer: "CyberStep",
     release_date: "2010-12-16",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/getamped-2"
   },
   {
@@ -4378,6 +4713,7 @@ let games = [
     publisher: "Gravity Interactive",
     developer: "Gravity Interactive",
     release_date: "2010-10-28",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dragon-saga"
   },
   {
@@ -4391,6 +4727,7 @@ let games = [
     publisher: "Nexon",
     developer: "devCAT",
     release_date: "2010-10-13",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/vindictus"
   },
   {
@@ -4404,6 +4741,7 @@ let games = [
     publisher: "HanbitSoft",
     developer: "JoyImpact",
     release_date: "2010-08-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/aika-online"
   },
   {
@@ -4417,6 +4755,7 @@ let games = [
     publisher: "Reloaded Games",
     developer: "Reloaded Productions",
     release_date: "2010-06-29",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/apb"
   },
   {
@@ -4430,6 +4769,7 @@ let games = [
     publisher: "Star Vault AB ",
     developer: "Star Vault AB ",
     release_date: "2010-06-09",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/mortal-online"
   },
   {
@@ -4443,6 +4783,7 @@ let games = [
     publisher: "X-Legend Entertainment",
     developer: "X-Legend Entertainment",
     release_date: "2009-12-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/grand-fantasia"
   },
   {
@@ -4456,6 +4797,7 @@ let games = [
     publisher: "InnoGames",
     developer: "InnoGames",
     release_date: "2009-12-08",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/grepolis"
   },
   {
@@ -4469,6 +4811,7 @@ let games = [
     publisher: "Riot Games",
     developer: "Riot Games",
     release_date: "2009-10-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/league-of-legends"
   },
   {
@@ -4482,6 +4825,7 @@ let games = [
     publisher: "RedFox Games",
     developer: "SG Data",
     release_date: "2009-09-09",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/twelve-sky-2"
   },
   {
@@ -4495,6 +4839,7 @@ let games = [
     publisher: "Perfect World Entertainment",
     developer: "Cryptic Studios",
     release_date: "2009-09-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/champions-online"
   },
   {
@@ -4508,6 +4853,7 @@ let games = [
     publisher: "Aeria Games",
     developer: "Softnyx",
     release_date: "2009-07-09",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/wolfteam"
   },
   {
@@ -4521,6 +4867,7 @@ let games = [
     publisher: "GameForge",
     developer: "Runewalker Entertainment",
     release_date: "2009-03-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/runes-of-magic"
   },
   {
@@ -4534,6 +4881,7 @@ let games = [
     publisher: "Expansive Worlds , Avalanche Studios",
     developer: "Expansive Worlds , Avalanche Studios",
     release_date: "2009-03-05",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/thehunter"
   },
   {
@@ -4547,6 +4895,7 @@ let games = [
     publisher: "NCSOFT",
     developer: "NCSOFT",
     release_date: "2008-11-25",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/aion"
   },
   {
@@ -4560,6 +4909,7 @@ let games = [
     publisher: "VALOFE",
     developer: "NDOORS Corporation",
     release_date: "2008-10-30",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/atlantica-online"
   },
   {
@@ -4573,6 +4923,7 @@ let games = [
     publisher: "Netts Corporation",
     developer: "Netts Corporation",
     release_date: "2008-10-15",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/florensia"
   },
   {
@@ -4586,6 +4937,7 @@ let games = [
     publisher: "Zemi Interactive",
     developer: "Zemi Interactive",
     release_date: "2008-10-20",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/4story"
   },
   {
@@ -4599,6 +4951,7 @@ let games = [
     publisher: "Artix Entertainment",
     developer: "Artix Entertainment",
     release_date: "2008-10-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/adventurequest-worlds"
   },
   {
@@ -4612,6 +4965,7 @@ let games = [
     publisher: "KingsIsle Entertainment",
     developer: "KingsIsle Entertainment",
     release_date: "2008-09-02",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/wizard101"
   },
   {
@@ -4625,6 +4979,7 @@ let games = [
     publisher: "Beijing Perfect World, Perfect World Entertainment",
     developer: "Beijing Perfect World",
     release_date: "2008-09-02",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/pwi"
   },
   {
@@ -4638,6 +4993,7 @@ let games = [
     publisher: "Suba Games",
     developer: "MasangSoft",
     release_date: "2008-08-29",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/ace-online"
   },
   {
@@ -4651,6 +5007,7 @@ let games = [
     publisher: "Playwith Interactive",
     developer: "Playwith Interactive",
     release_date: "2008-05-28",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/rohan-blood-feud"
   },
   {
@@ -4664,6 +5021,7 @@ let games = [
     publisher: "Funcom",
     developer: "Funcom",
     release_date: "2008-05-20",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/age-of-conan"
   },
   {
@@ -4677,6 +5035,7 @@ let games = [
     publisher: "GameForge",
     developer: "GameForge",
     release_date: "2008-03-31",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/ikariam"
   },
   {
@@ -4690,6 +5049,7 @@ let games = [
     publisher: "Silverlode Interactive",
     developer: "Silverlode Interactive , Wasatch Games",
     release_date: "2008-02-26",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/saga"
   },
   {
@@ -4703,6 +5063,7 @@ let games = [
     publisher: "gamigo AG",
     developer: "Onson Soft",
     release_date: "2008-02-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/fiesta-online"
   },
   {
@@ -4716,6 +5077,7 @@ let games = [
     publisher: "Aeria Games",
     developer: "Aeria Games",
     release_date: "2007-12-24",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/shaiya"
   },
   {
@@ -4729,6 +5091,7 @@ let games = [
     publisher: "I Got Games",
     developer: "UserJoy Technology",
     release_date: "2007-12-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/angels-online"
   },
   {
@@ -4742,6 +5105,7 @@ let games = [
     publisher: "YNK Interactive",
     developer: "YNK Interactive",
     release_date: "2007-11-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/seal-online"
   },
   {
@@ -4755,6 +5119,7 @@ let games = [
     publisher: "Valve",
     developer: "Valve",
     release_date: "2007-10-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/team-fortress-2"
   },
   {
@@ -4768,6 +5133,7 @@ let games = [
     publisher: "RedFox Games",
     developer: "Nimonix",
     release_date: "2007-08-02",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/rumble-fighter"
   },
   {
@@ -4781,6 +5147,7 @@ let games = [
     publisher: "T3Fun",
     developer: "IMC Games Co. Limited",
     release_date: "2007-07-10",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/granado-espada"
   },
   {
@@ -4794,6 +5161,7 @@ let games = [
     publisher: "Battlezone",
     developer: "JoongWon Games",
     release_date: "2007-05-09",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/9dragons"
   },
   {
@@ -4807,6 +5175,7 @@ let games = [
     publisher: "Neowiz Games",
     developer: "SmileGate",
     release_date: "2007-05-03",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/crossfire"
   },
   {
@@ -4820,6 +5189,7 @@ let games = [
     publisher: "Teeworlds Team ",
     developer: "Teeworlds Team ",
     release_date: "2007-05-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/teeworlds"
   },
   {
@@ -4833,6 +5203,7 @@ let games = [
     publisher: "Suba Games",
     developer: "Trglow Pictures",
     release_date: "2007-05-17",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/priston-tale"
   },
   {
@@ -4846,6 +5217,7 @@ let games = [
     publisher: "Redbana Corporation",
     developer: "T3 Entertainment",
     release_date: "2007-04-02",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/audition-online"
   },
   {
@@ -4859,6 +5231,7 @@ let games = [
     publisher: "Roblox Corporation",
     developer: "Roblox Corporation",
     release_date: "2006-12-22",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/roblox"
   },
   {
@@ -4872,6 +5245,7 @@ let games = [
     publisher: "IGG",
     developer: "Snail Games",
     release_date: "2006-12-22",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/voyage-century-online"
   },
   {
@@ -4885,6 +5259,7 @@ let games = [
     publisher: "Gameforge",
     developer: "Ymir Entertainment",
     release_date: "2006-12-17",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/metin2"
   },
   {
@@ -4898,6 +5273,7 @@ let games = [
     publisher: "Webzen",
     developer: "Gala Lab",
     release_date: "2006-11-03",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/rappelz"
   },
   {
@@ -4911,6 +5287,7 @@ let games = [
     publisher: "GPRO.net",
     developer: "GPRO.net",
     release_date: "2006-08-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/gpro"
   },
   {
@@ -4924,6 +5301,7 @@ let games = [
     publisher: "Cybertopia",
     developer: "Cybertopia",
     release_date: "2006-05-20",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/astro-empires"
   },
   {
@@ -4937,6 +5315,7 @@ let games = [
     publisher: "Warner Bros. Interactive Entertainment",
     developer: "Turbine, Inc.",
     release_date: "2006-02-28",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dungeons-dragons-online"
   },
   {
@@ -4950,6 +5329,7 @@ let games = [
     publisher: "RedFox Games",
     developer: "CCR Inc.",
     release_date: "2006-02-21",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/rf-online"
   },
   {
@@ -4963,6 +5343,7 @@ let games = [
     publisher: "Boostr ",
     developer: "Acute Mobile",
     release_date: "2006-01-17",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/urban-rivals"
   },
   {
@@ -4976,6 +5357,7 @@ let games = [
     publisher: "Webzen",
     developer: "Gala Lab Corp (formerly Aeonsoft)",
     release_date: "2005-12-25",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/flyff"
   },
   {
@@ -4989,6 +5371,7 @@ let games = [
     publisher: "SubaGames",
     developer: "SoftStar",
     release_date: "2005-09-03",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/domo"
   },
   {
@@ -5002,6 +5385,7 @@ let games = [
     publisher: "Imperia Online Ltd.",
     developer: "Imperia Online Ltd.",
     release_date: "2005-08-23",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/imperia-online"
   },
   {
@@ -5015,6 +5399,7 @@ let games = [
     publisher: "Nexon",
     developer: "Wizet",
     release_date: "2005-05-11",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/maplestory"
   },
   {
@@ -5028,6 +5413,7 @@ let games = [
     publisher: "GamesCampus",
     developer: "OnNet Co. Ltd.",
     release_date: "2004-11-30",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/shot-online"
   },
   {
@@ -5041,6 +5427,7 @@ let games = [
     publisher: "Daybreak Games",
     developer: "Daybreak Games",
     release_date: "2004-11-08",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/everquest-2"
   },
   {
@@ -5054,6 +5441,7 @@ let games = [
     publisher: "Ankama Games",
     developer: "Ankama Games",
     release_date: "2004-09-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/dofus"
   },
   {
@@ -5067,6 +5455,7 @@ let games = [
     publisher: "Travian Games",
     developer: "Travian Games",
     release_date: "2004-09-05",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/travian"
   },
   {
@@ -5080,6 +5469,7 @@ let games = [
     publisher: "Winch Gate",
     developer: "Nevrax",
     release_date: "2004-09-19",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/ryzom"
   },
   {
@@ -5093,6 +5483,7 @@ let games = [
     publisher: "Inisxoft",
     developer: "Inisxoft",
     release_date: "2004-06-11",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/kalonline"
   },
   {
@@ -5106,6 +5497,7 @@ let games = [
     publisher: "NCSoft",
     developer: "NCSoft",
     release_date: "2004-04-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/lineage-2"
   },
   {
@@ -5119,6 +5511,7 @@ let games = [
     publisher: "L＆K CO., LTD",
     developer: "L＆K CO., LTD",
     release_date: "2003-10-06",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/red-stone-online"
   },
   {
@@ -5132,6 +5525,7 @@ let games = [
     publisher: "Webzen",
     developer: "Webzen",
     release_date: "2003-10-06",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/mu-online"
   },
   {
@@ -5145,6 +5539,7 @@ let games = [
     publisher: "Linden Lab",
     developer: "Linden Lab",
     release_date: "2003-06-23",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/second-life"
   },
   {
@@ -5158,6 +5553,7 @@ let games = [
     publisher: "Gravity Interactive ",
     developer: "Gravity Interactive ",
     release_date: "2003-06-01",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/ragnarok-online"
   },
   {
@@ -5171,6 +5567,7 @@ let games = [
     publisher: "MindArk",
     developer: "MindArk",
     release_date: "2003-01-30",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/entropia-universe"
   },
   {
@@ -5184,6 +5581,7 @@ let games = [
     publisher: "Sulake Corporation",
     developer: "Sulake Corporation",
     release_date: "2001-09-26",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/habbo"
   },
   {
@@ -5197,6 +5595,7 @@ let games = [
     publisher: "Funcom",
     developer: "Funcom",
     release_date: "2001-06-27",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/anarchy-online"
   },
   {
@@ -5210,6 +5609,7 @@ let games = [
     publisher: "Warner Bros. Interactive Entertainment",
     developer: "Turbine, Inc.",
     release_date: "2001-04-24",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/lotro"
   },
   {
@@ -5223,6 +5623,7 @@ let games = [
     publisher: "CipSoft",
     developer: "CipSoft",
     release_date: "1997-01-07",
+    critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/tibia"
   }
 ]

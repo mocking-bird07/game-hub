@@ -6,6 +6,7 @@ import {
   HStack,
   Icon,
   Text,
+  Badge,
 } from "@chakra-ui/react";
 import { Avatar } from "./ui/avatar";
 import { FaWindows } from "react-icons/fa";
@@ -17,6 +18,7 @@ interface Game {
   title: string;
   thumbnail: string;
   platform: string;
+  critic_score: number;
 }
 
 interface Games {
@@ -67,7 +69,18 @@ const GameCard = ({ game }: Games) => {
           <Card.Title mt="2" fontSize={"2xl"}>
             {game.title}
           </Card.Title>
-          <Card.Footer mt={1}>{platformIdentifier(game.platform)}</Card.Footer>
+
+          <HStack mt={1} justifyContent="space-between">
+            {platformIdentifier(game.platform)}
+            <Badge
+              fontSize={"14px"}
+              colorPalette={"green"}
+              paddingX={2}
+              borderRadius={"4px"}
+            >
+              {game.critic_score}
+            </Badge>
+          </HStack>
         </Card.Body>
       </Card.Root>
     </Flex>
