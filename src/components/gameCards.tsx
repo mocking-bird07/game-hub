@@ -1,10 +1,22 @@
-import { Card, Image, Button, Flex } from "@chakra-ui/react";
+import {
+  Card,
+  Image,
+  Button,
+  Flex,
+  HStack,
+  Icon,
+  Text,
+} from "@chakra-ui/react";
 import { Avatar } from "./ui/avatar";
+import { FaWindows } from "react-icons/fa";
+import { BsMouse } from "react-icons/bs";
+import { useState } from "react";
 
 interface Game {
   id: number;
   title: string;
   thumbnail: string;
+  platform: string;
 }
 
 interface Games {
@@ -12,6 +24,33 @@ interface Games {
 }
 
 const GameCard = ({ game }: Games) => {
+  let platformIdentifier = (platform: string) => {
+    if (platform === "PC (Windows), Web Browser") {
+      return (
+        <HStack>
+          <Icon color={"gray.500"}>
+            <BsMouse />
+          </Icon>
+          <Icon color={"gray.500"}>
+            <FaWindows />
+          </Icon>
+        </HStack>
+      );
+    } else if (platform === "Web Browser") {
+      return (
+        <Icon color={"gray.500"}>
+          <BsMouse />
+        </Icon>
+      );
+    } else if (platform === "PC (Windows)") {
+      return (
+        <Icon color={"gray.500"}>
+          <FaWindows />
+        </Icon>
+      );
+    }
+  };
+
   return (
     <Flex
       justify={{ sm: "center", md: "center" }}
@@ -21,13 +60,14 @@ const GameCard = ({ game }: Games) => {
         borderRadius={10}
         overflow={"hidden"}
         w={["100%", "100%", "100%", "100%"]}
-        h={{ base: "100%", lg: "255.66px" }}
+        h={{ base: "100%", lg: "280px" }}
       >
         <Image src={game.thumbnail} />
         <Card.Body>
           <Card.Title mt="2" fontSize={"2xl"}>
             {game.title}
           </Card.Title>
+          <Card.Footer mt={1}>{platformIdentifier(game.platform)}</Card.Footer>
         </Card.Body>
       </Card.Root>
     </Flex>

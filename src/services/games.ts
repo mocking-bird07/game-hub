@@ -2290,7 +2290,7 @@ let games = [
   {
    id: 354,
     title: "Gods Origin Onine",
-  thumbnail: "https://www.reetogamecom/g/354/thumbnail.jpg",
+  thumbnail: "https://imgs.search.brave.com/3UqU6PqJw5bGE-cr9G2yAXyvqOQSqCLXwrF8t2fXq4g/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2dv/ZHMtb3JpZ2luLW9u/bGluZS9pbWFnZXMv/Zi9mMy8xLmpwZy9y/ZXZpc2lvbi9sYXRl/c3Qvc2NhbGUtdG8t/d2lkdGgtZG93bi80/MDA_Y2I9MjAxNzA4/MjMwOTM0NDI.jpeg",
     short_description: "A ree-to-ply browser-based RPG from VivaGames in which players take on the role of human summoners that call deities from the Astral Realm back in time. ",
     game_url: "https://wwwfreetogame.cm/open/gods-origin",
     genr: "MMORPG",
