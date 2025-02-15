@@ -64,7 +64,7 @@ const GameCard = ({ game }: Games) => {
         w={["100%", "100%", "100%", "100%"]}
         h={{ base: "100%", lg: "280px" }}
       >
-        <Image src={game.thumbnail} />
+        <Image src={game.thumbnail} h={"500px"} w={"600px"} />
         <Card.Body>
           <Card.Title mt="2" fontSize={"2xl"}>
             {game.title}

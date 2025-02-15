@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import GameGrid from "./components/GameGrid";
+import GameGenre from "./components/GameGenre";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         rowSpan={1}
         h={"100%"}
       >
-        Aside
+        <GameGenre />
       </GridItem>
 
       <GridItem colSpan={3} rowSpan={1} h={"100%"}>
