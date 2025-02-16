@@ -12,6 +12,7 @@ import { Avatar } from "./ui/avatar";
 import { FaWindows } from "react-icons/fa";
 import { BsMouse, BsChevronDown } from "react-icons/bs";
 import { useState } from "react";
+import noImage from "../assets/360_F_499933117_ZAUBfv3P1HEOsZDrnkbNCt4jc3AodArl.webp";
 
 interface Game {
   id: number;
@@ -53,6 +54,11 @@ const GameCard = ({ game }: Games) => {
     }
   };
 
+  let [imageError, iE] = useState(false);
+  let imageHandler = () => {
+    iE(true);
+  };
+
   return (
     <Flex
       justify={{ sm: "center", md: "center" }}
@@ -64,7 +70,12 @@ const GameCard = ({ game }: Games) => {
         w={["100%", "100%", "100%", "100%"]}
         h={{ base: "100%", lg: "280px" }}
       >
-        <Image src={game.thumbnail} h={"100%"} w={"600px"} />
+        <Image
+          onError={imageHandler}
+          src={imageError ? noImage : game.thumbnail}
+          h={imageError ? "175px" : "100%"}
+          w={"600px"}
+        />
         <Card.Body>
           <Card.Title mt="2" fontSize={"2xl"}>
             {game.title}
