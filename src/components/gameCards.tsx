@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { Avatar } from "./ui/avatar";
 import { FaWindows } from "react-icons/fa";
-import { BsMouse } from "react-icons/bs";
+import { BsMouse, BsChevronDown } from "react-icons/bs";
 import { useState } from "react";
 
 interface Game {

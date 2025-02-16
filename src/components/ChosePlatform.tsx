@@ -1,21 +1,13 @@
-import React, { ReactNode, useRef } from "react";
 import {
   Button,
-  createListCollection,
   MenuContent,
   MenuItem,
   MenuRoot,
   MenuTrigger,
-  SelectValueChangeDetails,
-  SelectValueTextProps,
+  Portal,
+  useDisclosure,
 } from "@chakra-ui/react";
-import {
-  SelectRoot,
-  SelectTrigger,
-  SelectValueText,
-  SelectContent,
-  SelectItem,
-} from "@chakra-ui/react";
+import { css } from "@emotion/react";
 
 interface Props {
   onchange: (value: string) => void | undefined;
@@ -23,28 +15,15 @@ interface Props {
 }
 
 const ChosePlatform = ({ onchange, selectedPlatform }: Props) => {
-  let options = createListCollection({
-    items: [
-      { name: "Browser games", value: "Web Browser" },
-      { name: "PC Windows games", value: " PC (Windows)" },
-    ],
-  });
-
-  let ref = useRef<HTMLSpanElement>(null);
-  let forchange = () => {
-    if (ref.current != null) {
-      console.log(ref.current);
-    }
-  };
-
   return (
     <MenuRoot size={"md"} onSelect={(value) => onchange(value.value)}>
-      <MenuTrigger asChild>
+      <MenuTrigger as={"button"}>
         <Button variant="outline" size="sm">
           {selectedPlatform}
         </Button>
       </MenuTrigger>
-      <MenuContent>
+
+      <MenuContent position="absolute" zIndex="popover" top={"100%"}>
         <MenuItem value="Web Browser">Browser games</MenuItem>
         <MenuItem value="PC (Windows)">PC Windows games</MenuItem>
       </MenuContent>

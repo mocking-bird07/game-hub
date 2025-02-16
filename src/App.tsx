@@ -6,6 +6,15 @@ import {
   Grid,
   GridItem,
   Show,
+  HStack,
+  Spinner,
+  Box,
+  MenuContent,
+  MenuItem,
+  MenuRoot,
+  MenuTrigger,
+  Portal,
+  useDisclosure,
 } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import GameGrid from "./components/GameGrid";
@@ -13,7 +22,8 @@ import GameGenre from "./components/GameGenre";
 import games from "./services/games";
 import { useState } from "react";
 import { createListCollection } from "@chakra-ui/react";
-import ChosePlatform from "./ChosePlatform";
+import ChosePlatform from "./components/ChosePlatform";
+import SortSelector from "./components/SortSelector";
 
 function App() {
   let [selectedGenre, setgenre] = useState<string>();
@@ -30,7 +40,7 @@ function App() {
     : games;
 
   return (
-    <Grid column={{ base: 1, lg: 3 }} w={{ lg: "1024" }} marginX={0}>
+    <Grid column={{ base: 1, lg: 3 }} w={"100%"} marginX={0}>
       <GridItem paddingX={5} colSpan={6} rowSpan={1} h={"100%"} mb={2}>
         <NavBar click={() => setgenre(undefined)} />
       </GridItem>
@@ -43,27 +53,9 @@ function App() {
       >
         <GameGenre
           weight={(genre) => (selectedGenre === genre ? "bold" : "normal")}
-          click={(genre: string) => setgenre(genre)}
-        />
-      </GridItem>
-
-      <GridItem
-        colSpan={5}
-        rowSpan={1}
-        h={"100%"}
-        width={"100%"}
-        padding={"10px"}
-        ml={{ md: "25px" }}
-      >
-        <ChosePlatform
-          selectedPlatform={
-            selectedPlatform
-              ? selectedPlatform === "PC (Windows)"
-                ? "PC Windows games"
-                : "Browser games"
-              : "Platform"
-          }
-          onchange={(value) => setPlatform(value)}
+          click={(genre: string) => {
+            setgenre(genre);
+          }}
         />
       </GridItem>
 
@@ -74,6 +66,20 @@ function App() {
         padding={"10px"}
         ml={{ md: "25px" }}
       >
+        <HStack gap={5} alignItems={"start"} position="relative" mb={5}>
+          <ChosePlatform
+            selectedPlatform={
+              selectedPlatform
+                ? selectedPlatform === "PC (Windows)"
+                  ? "PC Windows games"
+                  : "Browser games"
+                : "Platform"
+            }
+            onchange={(value) => setPlatform(value)}
+          />
+          <SortSelector />
+        </HStack>
+
         <GameGrid games={gameDisplay} />
       </GridItem>
     </Grid>
