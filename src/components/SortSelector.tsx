@@ -11,16 +11,16 @@ import {
 } from "@chakra-ui/react";
 
 interface Props {
-  onchange?: (value: string) => void | undefined;
-  selectedPlatform?: string;
+  onchange: (value: string) => void | undefined;
+  selectedOrder: string;
 }
 
-const SortSelector = ({ onchange, selectedPlatform }: Props) => {
+const SortSelector = ({ onchange, selectedOrder }: Props) => {
   return (
     <MenuRoot size={"md"} onSelect={(value) => onchange(value?.value)}>
       <MenuTrigger asChild>
         <Button variant="outline" size="sm">
-          Order by: Relevance
+          Order by: {selectedOrder}
         </Button>
       </MenuTrigger>
 
@@ -29,13 +29,13 @@ const SortSelector = ({ onchange, selectedPlatform }: Props) => {
         zIndex="popover"
         top={"100%"}
         w={"157px"}
-        ml={"175px"}
+        ml={"105px"}
       >
-        <MenuItem value="relevancer">Relevance</MenuItem>
-        <MenuItem value="release-date">Relase date</MenuItem>
-        <MenuItem value="name">Name</MenuItem>
-        <MenuItem value="popularity">Popularity</MenuItem>
-        <MenuItem value="average-rating">Average rating</MenuItem>
+        <MenuItem value="Relevance">Relevance</MenuItem>
+        <MenuItem value="Release date">Release date</MenuItem>
+        <MenuItem value="Name">Name</MenuItem>
+        <MenuItem value="Popularity">Popularity</MenuItem>
+        <MenuItem value="Average rating">Average rating</MenuItem>
       </MenuContent>
     </MenuRoot>
   );

@@ -27,7 +27,7 @@ const GameGenre = ({ click, weight }: Props) => {
   let ug = [1];
 
   games.forEach((g) => {
-    if (g.id === undefined) {
+    if (g.release_date === undefined) {
       console.log(g);
     }
   });

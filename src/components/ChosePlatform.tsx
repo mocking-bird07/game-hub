@@ -24,6 +24,10 @@ const ChosePlatform = ({ onchange, selectedPlatform }: Props) => {
       </MenuTrigger>
 
       <MenuContent position="absolute" zIndex="popover" top={"100%"}>
+        <MenuItem value="All">All games</MenuItem>
+        <MenuItem value="PC (Windows), Web Browser">
+          Both PC and Browser
+        </MenuItem>
         <MenuItem value="Web Browser">Browser games</MenuItem>
         <MenuItem value="PC (Windows)">PC Windows games</MenuItem>
       </MenuContent>
