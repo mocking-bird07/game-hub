@@ -26,13 +26,7 @@ interface Props {
 const GameGrid = ({ games }: Props) => {
   if (games != null) {
     return (
-      <SimpleGrid
-        columns={{ sm: 1, md: 2, lg: 3, xl: 4 }}
-        padding={"10px"}
-        gap={3}
-        w={"100%"}
-        ml={{ md: "25px" }}
-      >
+      <SimpleGrid columns={{ sm: 1, md: 2, lg: 3, xl: 4 }} gap={3} w={"100%"}>
         {games.map((game) => (
           <GameCard game={game} key={game.id} />
         ))}

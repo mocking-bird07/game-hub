@@ -19,9 +19,10 @@ import { Avatar } from "./ui/avatar";
 
 interface Props {
   click: (genre: string) => void;
+  weight: (genre: string) => void;
 }
 
-const GameGenre = ({ click }: Props) => {
+const GameGenre = ({ click, weight }: Props) => {
   let gameGenre = [];
   let ug = [1];
 
@@ -66,7 +67,9 @@ const GameGenre = ({ click }: Props) => {
           mr={2}
         >
           <Image borderRadius="5px" boxSize={"32px"} src={po.image} />
-          <Link fontSize={"lg"}>{po.name}</Link>
+          <Link fontWeight={weight(po.name)} fontSize={"lg"}>
+            {po.name}
+          </Link>
         </HStack>
       ))}
     </>
