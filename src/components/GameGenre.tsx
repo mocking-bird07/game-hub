@@ -1,5 +1,5 @@
 import games from "@/services/games";
-import { HStack, Image, Text } from "@chakra-ui/react";
+import { Button, HStack, Image, Link, Text } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import actionMultiplayer from "../assets/action multiplayer.webp";
 import actionGame from "../assets/actionGame.webp";
@@ -17,9 +17,20 @@ import social from "../assets/two teenagers playing with less colors.webp";
 import fantasy from "../assets/a bald warrior wearing a fur but naked around his chest with a mad face riding a scary dragon by front view on night.webp";
 import { Avatar } from "./ui/avatar";
 
-const GameGenre = () => {
+interface Props {
+  click: (genre: string) => void;
+}
+
+const GameGenre = ({ click }: Props) => {
   let gameGenre = [];
   let ug = [1];
+
+  games.forEach((g) => {
+    if (g.id === undefined) {
+      console.log(g);
+    }
+  });
+
   gameGenre = games.map((game) => game.genre);
   gameGenre.forEach((g) => {
     if (ug.includes(g) === false) {
@@ -47,9 +58,15 @@ const GameGenre = () => {
   return (
     <>
       {p.map((po) => (
-        <HStack paddingY={"5px"} ml={2} mr={2}>
+        <HStack
+          key={po.name}
+          onClick={() => click(po.name)}
+          paddingY={"5px"}
+          ml={2}
+          mr={2}
+        >
           <Image borderRadius="5px" boxSize={"32px"} src={po.image} />
-          <Text fontSize={"lg"}>{po.name}</Text>
+          <Link fontSize={"lg"}>{po.name}</Link>
         </HStack>
       ))}
     </>

@@ -1,3 +1,5 @@
+import pic from '../assets/GODS OGRIIN.webp'
+
 let games = [
   {
     id: 582,
@@ -2461,16 +2463,17 @@ let games = [
     publisher: "Bethesda Softworks",
     developer: "idSoftware",
     release_date: "207-08-22",
-    freetogame_pofile_url:"https://www.freetogame.com/quake-champins"
+    critic_score: 91,
+    freetogame_profile_url:"https://www.freetogame.com/quake-champins"
   },  
   {
    id: 354,
     title: "Gods Origin Onine",
-  thumbnail: "https://www.reetogamecom/g/354/thumbnail.jpg",
+  thumbnail: pic,
     short_description: "A ree-to-ply browser-based RPG from VivaGames in which players take on the role of human summoners that call deities from the Astral Realm back in time. ",
     game_url: "https://wwwfreetogame.cm/open/gods-origin",
     genre: "Action Multiplayer",
-    platfom: "Web Browser",
+    platform: "Web Browser",
     publisher: "VivaGame",
     developer: "VivaGame",
     release_date: "2017-08-29",
