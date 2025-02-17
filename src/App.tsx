@@ -119,7 +119,13 @@ function App() {
 
   return (
     <Grid column={{ base: 1, lg: 3 }} w={"100%"} marginX={0}>
-      <GridItem paddingX={5} colSpan={6} rowSpan={1} h={"100%"} mb={2}>
+      <GridItem
+        paddingX={{ sm: 2, md: 5, lg: 5, xl: 5 }}
+        colSpan={6}
+        rowSpan={1}
+        h={"100%"}
+        mb={2}
+      >
         <NavBar click={() => setgenre(undefined)} />
       </GridItem>
 
