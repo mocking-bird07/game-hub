@@ -19,6 +19,7 @@ const ColorSwitch = () => {
         onChange={toggleColorMode}
         colorPalette={"green"}
         whiteSpace={"nowrap"}
+        ml={"30px"}
       >
         Dark mode
       </Switch>

@@ -5,16 +5,9 @@ import {
   Text,
   Grid,
   GridItem,
-  Show,
   HStack,
   Spinner,
   Box,
-  MenuContent,
-  MenuItem,
-  MenuRoot,
-  MenuTrigger,
-  Portal,
-  useDisclosure,
 } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import GameGrid from "./components/GameGrid";
@@ -24,11 +17,14 @@ import { useState } from "react";
 import { createListCollection } from "@chakra-ui/react";
 import ChosePlatform from "./components/ChosePlatform";
 import SortSelector from "./components/SortSelector";
+import GameHeading from "./components/GameHeading";
 
 function App() {
   let [selectedGenre, setgenre] = useState<string>();
   let [selectedPlatform, setPlatform] = useState<string>();
   let [selectedOrder, setOrder] = useState<string>();
+  let [searchText, setSearch] = useState<string>();
+
   let gameDisplay = selectedGenre
     ? selectedPlatform
       ? selectedPlatform === "All"
@@ -117,6 +113,21 @@ function App() {
     }
   }
 
+  let newDisplay3 = [];
+  let noSearch = false;
+
+  if (searchText != undefined) {
+    gameDisplay.forEach((game) => {
+      let v = game.title.toLowerCase();
+      if (v.includes(searchText.toLowerCase()) === true) {
+        newDisplay3.push(game);
+      }
+    });
+    if (newDisplay3.length === 0) {
+      noSearch = true;
+    }
+  }
+
   return (
     <Grid column={{ base: 1, lg: 3 }} w={"100%"} marginX={0}>
       <GridItem
@@ -126,7 +137,13 @@ function App() {
         h={"100%"}
         mb={2}
       >
-        <NavBar click={() => setgenre(undefined)} />
+        <NavBar
+          onSearch={(value) => setSearch(value)}
+          click={() => {
+            setgenre(undefined);
+            setSearch(undefined);
+          }}
+        />
       </GridItem>
 
       <GridItem
@@ -150,6 +167,7 @@ function App() {
         padding={"10px"}
         ml={{ md: "25px" }}
       >
+        <GameHeading genre={selectedGenre} platform={selectedPlatform} />
         <HStack gap={5} position="relative" mb={5}>
           <ChosePlatform
             selectedPlatform={
@@ -168,10 +186,32 @@ function App() {
           <SortSelector
             selectedOrder={selectedOrder ? selectedOrder : "Relevance"}
             onchange={(value) => setOrder(value)}
+            width={
+              selectedPlatform === undefined
+                ? "105px"
+                : selectedPlatform === "All"
+                ? "112px"
+                : selectedPlatform === "PC (Windows), Web Browser"
+                ? "183px"
+                : selectedPlatform === "Web Browser"
+                ? "147px"
+                : "175px"
+            }
           />
         </HStack>
 
-        <GameGrid games={gameDisplay} />
+        {noSearch ? (
+          <Text
+            ml={"100px"}
+            fontWeight={"bold"}
+            alignContent={"center"}
+            fontSize={"40px"}
+          >
+            No results found for '{searchText}'
+          </Text>
+        ) : (
+          <GameGrid games={gameDisplay} />
+        )}
       </GridItem>
     </Grid>
   );

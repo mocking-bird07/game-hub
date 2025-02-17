@@ -6,20 +6,21 @@ import Search from "./Search";
 
 interface Props {
   click: () => void;
+  onSearch: (value: string) => void;
 }
 
-const NavBar = ({ click }: Props) => {
+const NavBar = ({ click, onSearch }: Props) => {
   return (
     <HStack justifyContent="space-between" padding={"10px"}>
       <HStack>
         <Image src={logo} height="60px" borderRadius={"20px"} />
-        <Link onClick={() => click()}>
+        <Link paddingRight={{ lg: "20px", base: 0 }} onClick={() => click()}>
           <Icon display={{ base: "none", lg: "block" }} size={"2xl"}>
             <FaHouseChimney />
           </Icon>
         </Link>
       </HStack>
-      <Search />
+      <Search onSearch={(value) => onSearch(value)} />
       <ColorSwitch />
     </HStack>
   );

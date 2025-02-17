@@ -13,9 +13,10 @@ import {
 interface Props {
   onchange: (value: string) => void | undefined;
   selectedOrder: string;
+  width: string;
 }
 
-const SortSelector = ({ onchange, selectedOrder }: Props) => {
+const SortSelector = ({ onchange, selectedOrder, width }: Props) => {
   return (
     <MenuRoot size={"md"} onSelect={(value) => onchange(value?.value)}>
       <MenuTrigger asChild>
@@ -29,7 +30,7 @@ const SortSelector = ({ onchange, selectedOrder }: Props) => {
         zIndex="popover"
         top={"100%"}
         w={"157px"}
-        ml={"105px"}
+        ml={width}
       >
         <MenuItem value="Relevance">Relevance</MenuItem>
         <MenuItem value="Release date">Release date</MenuItem>
