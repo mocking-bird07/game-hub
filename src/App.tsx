@@ -168,7 +168,10 @@ function App() {
         padding={"10px"}
         ml={{ md: "25px" }}
       >
-        <GameHeading genre={selectedGenre} platform={selectedPlatform} />
+        <GameHeading
+          genre={selectedGenre !== undefined ? selectedGenre : ""}
+          platform={selectedPlatform !== undefined ? selectedPlatform : ""}
+        />
         <HStack gap={5} position="relative" mb={5}>
           <ChosePlatform
             selectedPlatform={

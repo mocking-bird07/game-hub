@@ -77,11 +77,7 @@ const GameCard = ({ game }: Games) => {
           w={"600px"}
         />
         <Card.Body>
-          <Card.Title mt="2" fontSize={"2xl"}>
-            {game.title}
-          </Card.Title>
-
-          <HStack mt={1} justifyContent="space-between">
+          <HStack mb={3} justifyContent="space-between">
             {platformIdentifier(game.platform)}
             <Badge
               fontSize={"14px"}
@@ -92,6 +88,9 @@ const GameCard = ({ game }: Games) => {
               {game.critic_score}
             </Badge>
           </HStack>
+          <Card.Title mt="2" fontSize={"2xl"}>
+            {game.title}
+          </Card.Title>
         </Card.Body>
       </Card.Root>
     </Flex>
