@@ -8,6 +8,7 @@ import {
   HStack,
   Spinner,
   Box,
+  Heading,
 } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import GameGrid from "./components/GameGrid";

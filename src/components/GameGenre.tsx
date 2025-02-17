@@ -1,5 +1,5 @@
 import games from "@/services/games";
-import { Button, HStack, Image, Link, Text } from "@chakra-ui/react";
+import { Button, Heading, HStack, Image, Link, Text } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import actionMultiplayer from "../assets/action multiplayer.webp";
 import actionGame from "../assets/actionGame.webp";
@@ -58,6 +58,9 @@ const GameGenre = ({ click, weight }: Props) => {
   ];
   return (
     <>
+      <Heading ml={2} marginBottom={3} fontSize={"2xl"}>
+        Genres
+      </Heading>
       {p.map((po) => (
         <HStack
           key={po.name}
