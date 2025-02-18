@@ -1,7 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { Grid, GridItem, SimpleGrid } from "@chakra-ui/react";
-import { Card, Image, Button, Flex } from "@chakra-ui/react";
-import { Avatar } from "./ui/avatar";
+import { SimpleGrid } from "@chakra-ui/react";
 import GameCard from "./gameCards";
 
 export interface Game {

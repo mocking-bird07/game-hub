@@ -1,6 +1,5 @@
 import games from "@/services/games";
-import { Button, Heading, HStack, Image, Link, Text } from "@chakra-ui/react";
-import { useEffect, useState } from "react";
+import { Heading, HStack, Image, Link } from "@chakra-ui/react";
 import actionMultiplayer from "../assets/action multiplayer.webp";
 import actionGame from "../assets/actionGame.webp";
 import shooter from "../assets/shooter.webp";
@@ -15,16 +14,15 @@ import onlineMultiplayer from "../assets/A teenager sitting on a gaming chair in
 import race from "../assets/realistic icon for racing game with backview of a red Ferrari with the backlight turned on and in a fierce race at night with crashing and fire.webp";
 import social from "../assets/two teenagers playing with less colors.webp";
 import fantasy from "../assets/a bald warrior wearing a fur but naked around his chest with a mad face riding a scary dragon by front view on night.webp";
-import { Avatar } from "./ui/avatar";
 
 interface Props {
   click: (genre: string) => void;
-  weight: (genre: string) => void;
+  weight: string | undefined;
 }
 
 const GameGenre = ({ click, weight }: Props) => {
   let gameGenre = [];
-  let ug = [1];
+  let ug = [""];
 
   games.forEach((g) => {
     if (g.release_date === undefined) {
@@ -67,10 +65,20 @@ const GameGenre = ({ click, weight }: Props) => {
           onClick={() => click(po.name)}
           paddingY={"5px"}
           ml={2}
-          mr={2}
+          mr={10}
+          whiteSpace={"nowrap"}
         >
           <Image borderRadius="5px" boxSize={"32px"} src={po.image} />
-          <Link fontWeight={weight(po.name)} fontSize={"lg"}>
+          <Link
+            fontWeight={
+              weight !== undefined
+                ? po.name === weight
+                  ? "bold"
+                  : "normal"
+                : "normal"
+            }
+            fontSize={"lg"}
+          >
             {po.name}
           </Link>
         </HStack>

@@ -1,24 +1,27 @@
-import {
-  Button,
-  ButtonGroup,
-  Stack,
-  Text,
-  Grid,
-  GridItem,
-  HStack,
-  Spinner,
-  Box,
-  Heading,
-} from "@chakra-ui/react";
+import { Text, Grid, GridItem, HStack } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import GameGrid from "./components/GameGrid";
 import GameGenre from "./components/GameGenre";
 import games from "./services/games";
 import { useState } from "react";
-import { createListCollection } from "@chakra-ui/react";
 import ChosePlatform from "./components/ChosePlatform";
 import SortSelector from "./components/SortSelector";
 import GameHeading from "./components/GameHeading";
+
+interface Game {
+  id: number;
+  title: string;
+  thumbnail: string;
+  short_description: string;
+  game_url: string;
+  genre: string;
+  platform: string;
+  publisher: string;
+  developer: string;
+  release_date: string;
+  critic_score: number;
+  freetogame_profile_url: string;
+}
 
 function App() {
   let [selectedGenre, setgenre] = useState<string>();
@@ -40,7 +43,8 @@ function App() {
       ? games
       : games.filter((game) => game.platform === selectedPlatform)
     : games;
-  const newDisplay2 = [];
+  let newDisplay2: Game[];
+  newDisplay2 = [];
   let prev = gameDisplay;
   let names = gameDisplay.map((game) => game.title).sort();
 
@@ -78,9 +82,8 @@ function App() {
     ),
   ];
 
-  console.log(month);
-
-  const newDisplay = [];
+  let newDisplay: Game[];
+  newDisplay = [];
 
   if (selectedOrder != undefined) {
     if (selectedOrder === "Name") {
@@ -114,7 +117,8 @@ function App() {
     }
   }
 
-  let newDisplay3 = [];
+  let newDisplay3: Game[];
+  newDisplay3 = [];
   let noSearch = false;
 
   if (searchText != undefined) {
@@ -124,9 +128,7 @@ function App() {
         newDisplay3.push(game);
       }
     });
-    if (newDisplay3.length === 0) {
-      noSearch = true;
-    }
+    gameDisplay = newDisplay3;
   }
 
   return (
@@ -152,9 +154,10 @@ function App() {
         colSpan={1}
         rowSpan={6}
         h={"100%"}
+        overflowY={"auto"}
       >
         <GameGenre
-          weight={(genre) => (selectedGenre === genre ? "bold" : "normal")}
+          weight={selectedGenre}
           click={(genre: string) => {
             setgenre(genre);
           }}

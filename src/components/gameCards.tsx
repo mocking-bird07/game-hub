@@ -1,16 +1,6 @@
-import {
-  Card,
-  Image,
-  Button,
-  Flex,
-  HStack,
-  Icon,
-  Text,
-  Badge,
-} from "@chakra-ui/react";
-import { Avatar } from "./ui/avatar";
+import { Card, Image, Flex, HStack, Icon, Badge } from "@chakra-ui/react";
 import { FaWindows } from "react-icons/fa";
-import { BsMouse, BsChevronDown } from "react-icons/bs";
+import { BsMouse } from "react-icons/bs";
 import { useState } from "react";
 import noImage from "../assets/360_F_499933117_ZAUBfv3P1HEOsZDrnkbNCt4jc3AodArl.webp";
 

@@ -1,6 +1,5 @@
-import { Input, InputElement } from "@chakra-ui/react";
+import { Input } from "@chakra-ui/react";
 import { InputGroup } from "./ui/input-group";
-import { BsSearch } from "react-icons/bs";
 import { LuSearch } from "react-icons/lu";
 import { useRef } from "react";
 

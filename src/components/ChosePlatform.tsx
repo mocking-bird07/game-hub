@@ -4,10 +4,7 @@ import {
   MenuItem,
   MenuRoot,
   MenuTrigger,
-  Portal,
-  useDisclosure,
 } from "@chakra-ui/react";
-import { css } from "@emotion/react";
 
 interface Props {
   onchange: (value: string) => void | undefined;

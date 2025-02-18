@@ -1,4 +1,4 @@
-import { Box, HStack, Icon, Image, Link, Text } from "@chakra-ui/react";
+import { HStack, Icon, Image, Link } from "@chakra-ui/react";
 import logo from "../assets/game.webp";
 import ColorSwitch from "./colorSwitch";
 import { FaHouseChimney } from "react-icons/fa6";
