@@ -32,7 +32,9 @@ function App() {
   let gameDisplay = selectedGenre
     ? selectedPlatform
       ? selectedPlatform === "All"
-        ? games
+        ? selectedGenre
+          ? games.filter((game) => game.genre === selectedGenre)
+          : games
         : games.filter(
             (game) =>
               game.genre === selectedGenre && game.platform === selectedPlatform
@@ -40,7 +42,9 @@ function App() {
       : games.filter((game) => game.genre === selectedGenre)
     : selectedPlatform
     ? selectedPlatform === "All"
-      ? games
+      ? selectedGenre
+        ? games.filter((game) => game.genre === selectedGenre)
+        : games
       : games.filter((game) => game.platform === selectedPlatform)
     : games;
   let newDisplay2: Game[];
@@ -128,6 +132,8 @@ function App() {
         newDisplay3.push(game);
       }
     });
+    if (newDisplay3.length === 0) [(noSearch = true)];
+
     gameDisplay = newDisplay3;
   }
 
