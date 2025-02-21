@@ -1,4 +1,4 @@
-import { Text, Grid, GridItem, HStack } from "@chakra-ui/react";
+import { Text, Grid, GridItem, HStack, Flex } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import GameGrid from "./components/GameGrid";
 import GameGenre from "./components/GameGenre";
@@ -7,6 +7,7 @@ import { useState } from "react";
 import ChosePlatform from "./components/ChosePlatform";
 import SortSelector from "./components/SortSelector";
 import GameHeading from "./components/GameHeading";
+import "../src/index.css";
 
 interface Game {
   id: number;
@@ -138,95 +139,97 @@ function App() {
   }
 
   return (
-    <Grid column={{ base: 1, lg: 3 }} w={"100%"} marginX={0}>
-      <GridItem
-        paddingX={{ sm: 2, md: 5, lg: 5, xl: 5 }}
-        colSpan={6}
-        rowSpan={1}
-        h={"100%"}
-        mb={2}
-      >
-        <NavBar
-          onSearch={(value) => setSearch(value)}
-          click={() => {
-            setgenre(undefined);
-            setSearch(undefined);
-          }}
-        />
-      </GridItem>
+    <Flex>
+      <Grid column={{ base: 1, lg: 3 }} w={"100%"} marginX={0}>
+        <GridItem
+          paddingX={{ sm: 2, md: 5, lg: 5, xl: 5 }}
+          colSpan={6}
+          rowSpan={1}
+          h={"100%"}
+          mb={2}
+        >
+          <NavBar
+            onSearch={(value) => setSearch(value)}
+            click={() => {
+              setgenre(undefined);
+              setSearch(undefined);
+            }}
+          />
+        </GridItem>
 
-      <GridItem
-        display={{ base: "none", lg: "block" }}
-        colSpan={1}
-        rowSpan={6}
-        h={"100%"}
-        overflowY={"auto"}
-      >
-        <GameGenre
-          weight={selectedGenre}
-          click={(genre: string) => {
-            setgenre(genre);
-          }}
-        />
-      </GridItem>
+        <GridItem
+          display={{ base: "none", lg: "block" }}
+          colSpan={1}
+          rowSpan={6}
+        >
+          <GameGenre
+            weight={selectedGenre}
+            click={(genre: string) => {
+              setgenre(genre);
+            }}
+          />
+        </GridItem>
 
-      <GridItem
-        colSpan={3}
-        rowSpan={1}
-        h={"100%"}
-        padding={"10px"}
-        ml={{ md: "25px" }}
-      >
-        <GameHeading
-          genre={selectedGenre !== undefined ? selectedGenre : ""}
-          platform={selectedPlatform !== undefined ? selectedPlatform : ""}
-        />
-        <HStack gap={5} position="relative" mb={5}>
-          <ChosePlatform
-            selectedPlatform={
-              selectedPlatform
-                ? selectedPlatform === "PC (Windows)"
-                  ? "PC Windows games"
-                  : selectedPlatform === "Web Browser"
-                  ? "Browser games"
+        <GridItem
+          colSpan={3}
+          rowSpan={1}
+          paddingLeft={"10px"}
+          paddingRight={"10px"}
+          paddingBottom={0}
+          paddingTop={"10px"}
+          ml={{ md: "25px" }}
+        >
+          <GameHeading
+            genre={selectedGenre !== undefined ? selectedGenre : ""}
+            platform={selectedPlatform !== undefined ? selectedPlatform : ""}
+          />
+          <HStack gap={5} position="relative" mb={5}>
+            <ChosePlatform
+              selectedPlatform={
+                selectedPlatform
+                  ? selectedPlatform === "PC (Windows)"
+                    ? "PC Windows games"
+                    : selectedPlatform === "Web Browser"
+                    ? "Browser games"
+                    : selectedPlatform === "PC (Windows), Web Browser"
+                    ? "Both PC and Browser"
+                    : "All games"
+                  : "Platform"
+              }
+              onchange={(value) => setPlatform(value)}
+            />
+            <SortSelector
+              selectedOrder={selectedOrder ? selectedOrder : "Relevance"}
+              onchange={(value) => setOrder(value)}
+              width={
+                selectedPlatform === undefined
+                  ? "105px"
+                  : selectedPlatform === "All"
+                  ? "112px"
                   : selectedPlatform === "PC (Windows), Web Browser"
-                  ? "Both PC and Browser"
-                  : "All games"
-                : "Platform"
-            }
-            onchange={(value) => setPlatform(value)}
-          />
-          <SortSelector
-            selectedOrder={selectedOrder ? selectedOrder : "Relevance"}
-            onchange={(value) => setOrder(value)}
-            width={
-              selectedPlatform === undefined
-                ? "105px"
-                : selectedPlatform === "All"
-                ? "112px"
-                : selectedPlatform === "PC (Windows), Web Browser"
-                ? "183px"
-                : selectedPlatform === "Web Browser"
-                ? "147px"
-                : "175px"
-            }
-          />
-        </HStack>
+                  ? "183px"
+                  : selectedPlatform === "Web Browser"
+                  ? "147px"
+                  : "175px"
+              }
+            />
+          </HStack>
 
-        {noSearch ? (
-          <Text
-            ml={"100px"}
-            fontWeight={"bold"}
-            alignContent={"center"}
-            fontSize={"40px"}
-          >
-            No results found for '{searchText}'
-          </Text>
-        ) : (
-          <GameGrid games={gameDisplay} />
-        )}
-      </GridItem>
-    </Grid>
+          {noSearch ? (
+            <Text
+              ml={"100px"}
+              fontWeight={"bold"}
+              alignContent={"center"}
+              fontSize={"40px"}
+            >
+              No results found for '{searchText}'
+            </Text>
+          ) : (
+            <GameGrid games={gameDisplay} />
+          )}
+        </GridItem>
+      </Grid>
+    </Flex>
   );
 }
 

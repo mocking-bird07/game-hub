@@ -1,0 +1,35 @@
+
+
+.container {
+    display: flex;
+    overflow: hidden;
+}
+.genre {
+    overflow-y: auto; 
+    height:470.672px
+}
+.grid{
+    overflow-y: auto;
+    height: 340px;
+    padding-right: 10px;
+}
+
+
+.genre::-webkit-scrollbar, .grid::-webkit-scrollbar {
+    width: 5px; 
+}
+
+.genre::-webkit-scrollbar-track, .grid::-webkit-scrollbar-track {
+    background: none; 
+}
+
+.genre::-webkit-scrollbar-thumb, .grid::-webkit-scrollbar-thumb {
+    background: aqua;
+    border-radius: 10px; 
+    display: block;
+}
+
+.genre::-webkit-scrollbar-thumb:hover, .grid::-webkit-scrollbar-thumb:hover {
+    background: rgb(17, 136, 136); 
+}
+

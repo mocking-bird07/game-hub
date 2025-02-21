@@ -1,5 +1,5 @@
 import games from "@/services/games";
-import { Heading, HStack, Image, Link } from "@chakra-ui/react";
+import { Box, Heading, HStack, Image, Link } from "@chakra-ui/react";
 import actionMultiplayer from "../assets/action multiplayer.webp";
 import actionGame from "../assets/actionGame.webp";
 import shooter from "../assets/shooter.webp";
@@ -14,6 +14,7 @@ import onlineMultiplayer from "../assets/A teenager sitting on a gaming chair in
 import race from "../assets/realistic icon for racing game with backview of a red Ferrari with the backlight turned on and in a fierce race at night with crashing and fire.webp";
 import social from "../assets/two teenagers playing with less colors.webp";
 import fantasy from "../assets/a bald warrior wearing a fur but naked around his chest with a mad face riding a scary dragon by front view on night.webp";
+import "../index.css";
 
 interface Props {
   click: (genre: string) => void;
@@ -54,35 +55,38 @@ const GameGenre = ({ click, weight }: Props) => {
     { name: "Social", image: social },
     { name: "Fantasy", image: fantasy },
   ];
+
   return (
     <>
       <Heading ml={2} marginBottom={3} fontSize={"2xl"}>
         Genres
       </Heading>
-      {p.map((po) => (
-        <HStack
-          key={po.name}
-          onClick={() => click(po.name)}
-          paddingY={"5px"}
-          ml={2}
-          mr={10}
-          whiteSpace={"nowrap"}
-        >
-          <Image borderRadius="5px" boxSize={"32px"} src={po.image} />
-          <Link
-            fontWeight={
-              weight !== undefined
-                ? po.name === weight
-                  ? "bold"
-                  : "normal"
-                : "normal"
-            }
-            fontSize={"lg"}
+      <Box className="genre">
+        {p.map((po) => (
+          <HStack
+            key={po.name}
+            onClick={() => click(po.name)}
+            paddingY={"5px"}
+            ml={2}
+            mr={10}
+            whiteSpace={"nowrap"}
           >
-            {po.name}
-          </Link>
-        </HStack>
-      ))}
+            <Image borderRadius="5px" boxSize={"32px"} src={po.image} />
+            <Link
+              fontWeight={
+                weight !== undefined
+                  ? po.name === weight
+                    ? "bold"
+                    : "normal"
+                  : "normal"
+              }
+              fontSize={"lg"}
+            >
+              {po.name}
+            </Link>
+          </HStack>
+        ))}
+      </Box>
     </>
   );
 };
