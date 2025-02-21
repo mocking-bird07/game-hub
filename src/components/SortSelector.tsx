@@ -5,6 +5,7 @@ import {
   MenuRoot,
   MenuTrigger,
 } from "@chakra-ui/react";
+import { useColorMode } from "@/components/ui/color-mode";
 
 interface Props {
   onchange: (value: string) => void | undefined;
@@ -13,10 +14,16 @@ interface Props {
 }
 
 const SortSelector = ({ onchange, selectedOrder, width }: Props) => {
+  const { colorMode } = useColorMode();
+
   return (
     <MenuRoot size={"md"} onSelect={(value) => onchange(value?.value)}>
       <MenuTrigger asChild>
-        <Button variant="outline" size="sm">
+        <Button
+          variant="surface"
+          colorPalette={colorMode === "dark" ? "cyan" : "purple"}
+          size="sm"
+        >
           Order by: {selectedOrder}
         </Button>
       </MenuTrigger>

@@ -15,6 +15,7 @@ import race from "../assets/realistic icon for racing game with backview of a re
 import social from "../assets/two teenagers playing with less colors.webp";
 import fantasy from "../assets/a bald warrior wearing a fur but naked around his chest with a mad face riding a scary dragon by front view on night.webp";
 import "../index.css";
+import { useColorMode } from "@/components/ui/color-mode";
 
 interface Props {
   click: (genre: string) => void;
@@ -24,6 +25,7 @@ interface Props {
 const GameGenre = ({ click, weight }: Props) => {
   let gameGenre = [];
   let ug = [""];
+  const { colorMode } = useColorMode();
 
   games.forEach((g) => {
     if (g.release_date === undefined) {
@@ -61,7 +63,7 @@ const GameGenre = ({ click, weight }: Props) => {
       <Heading ml={2} marginBottom={3} fontSize={"2xl"}>
         Genres
       </Heading>
-      <Box className="genre">
+      <Box className={colorMode === "dark" ? "genre" : "genre2"}>
         {p.map((po) => (
           <HStack
             key={po.name}
@@ -73,12 +75,18 @@ const GameGenre = ({ click, weight }: Props) => {
           >
             <Image borderRadius="5px" boxSize={"32px"} src={po.image} />
             <Link
-              fontWeight={
-                weight !== undefined
+              className={
+                colorMode === "dark"
+                  ? weight !== undefined
+                    ? po.name === weight
+                      ? "realGenre2"
+                      : "realGenre"
+                    : "realGenre"
+                  : weight !== undefined
                   ? po.name === weight
-                    ? "bold"
-                    : "normal"
-                  : "normal"
+                    ? "realGenreLight2"
+                    : "realGenreLight"
+                  : "realGenreLight"
               }
               fontSize={"lg"}
             >

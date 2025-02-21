@@ -5,6 +5,7 @@ import {
   MenuRoot,
   MenuTrigger,
 } from "@chakra-ui/react";
+import { useColorMode } from "@/components/ui/color-mode";
 
 interface Props {
   onchange: (value: string) => void | undefined;
@@ -12,10 +13,16 @@ interface Props {
 }
 
 const ChosePlatform = ({ onchange, selectedPlatform }: Props) => {
+  const { colorMode } = useColorMode();
+
   return (
     <MenuRoot size={"md"} onSelect={(value) => onchange(value.value)}>
       <MenuTrigger as={"button"}>
-        <Button variant="outline" size="sm">
+        <Button
+          variant="surface"
+          colorPalette={colorMode === "dark" ? "cyan" : "purple"}
+          size="sm"
+        >
           {selectedPlatform}
         </Button>
       </MenuTrigger>

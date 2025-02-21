@@ -24,7 +24,7 @@
 }
 
 .genre::-webkit-scrollbar-thumb, .grid::-webkit-scrollbar-thumb {
-    background: aqua;
+    background: cyan;
     border-radius: 10px; 
     display: block;
 }
@@ -33,3 +33,79 @@
     background: rgb(17, 136, 136); 
 }
 
+.realGenre{
+    font-weight: normal;
+    text-decoration: none;
+}
+.realGenre2{
+    color: cyan;
+    font-weight: bold;
+}
+.realGenreLight{
+    font-weight: normal;
+    text-decoration: none;
+}
+.realGenreLight2{
+    color: black;
+    font-weight: bold;
+}
+.realGenreLight:hover{
+    color: black;
+    text-decoration: underline;
+}
+.realGenre:hover{
+    color: cyan;
+    text-decoration: underline;
+}
+.butto:hover{
+    color: cyan;
+}
+.sun{
+    color: yellow;
+    display: inline-block;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.sun:hover{
+    transform: rotate(45deg);
+}
+.moon{
+    color: black;
+    display: inline-block;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.moon:hover{
+    transform: rotate(45deg);
+}
+
+
+
+.genre2 {
+    overflow-y: auto; 
+    height:470.672px
+}
+.grid2{
+    overflow-y: auto;
+    height: 340px;
+    padding-right: 10px;
+}
+
+
+.genre2::-webkit-scrollbar, .grid2::-webkit-scrollbar {
+    width: 5px; 
+}
+
+.genre2::-webkit-scrollbar-track, .grid2::-webkit-scrollbar-track {
+    background: none; 
+}
+
+.genre2::-webkit-scrollbar-thumb, .grid2::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px; 
+    display: block;
+}
+
+.genre2::-webkit-scrollbar-thumb:hover, .grid2::-webkit-scrollbar-thumb:hover {
+    background: black; 
+}
