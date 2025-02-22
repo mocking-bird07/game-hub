@@ -1,4 +1,4 @@
-import { Text, Grid, GridItem, HStack, Flex } from "@chakra-ui/react";
+import { Text, Grid, GridItem, HStack, Flex, Box } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import GameGrid from "./components/GameGrid";
 import GameGenre from "./components/GameGenre";
@@ -146,7 +146,7 @@ function App() {
           colSpan={6}
           rowSpan={1}
           h={"100%"}
-          mb={2}
+          mb={"5px"}
         >
           <NavBar
             onSearch={(value) => setSearch(value)}
@@ -173,47 +173,54 @@ function App() {
         <GridItem
           colSpan={3}
           rowSpan={1}
-          paddingLeft={"10px"}
+          paddingLeft={{ md: "25px", lg: "20px" }}
           paddingRight={"10px"}
           paddingBottom={0}
           paddingTop={"10px"}
-          ml={{ md: "25px" }}
         >
-          <GameHeading
-            genre={selectedGenre !== undefined ? selectedGenre : ""}
-            platform={selectedPlatform !== undefined ? selectedPlatform : ""}
-          />
-          <HStack gap={5} position="relative" mb={5}>
-            <ChosePlatform
-              selectedPlatform={
-                selectedPlatform
-                  ? selectedPlatform === "PC (Windows)"
-                    ? "PC Windows games"
-                    : selectedPlatform === "Web Browser"
-                    ? "Browser games"
+          <Box
+            className="heading"
+            paddingLeft={"40px"}
+            paddingBottom={"20px"}
+            mb={3}
+            borderRadius={"5px"}
+          >
+            <GameHeading
+              genre={selectedGenre !== undefined ? selectedGenre : ""}
+              platform={selectedPlatform !== undefined ? selectedPlatform : ""}
+            />
+            <HStack gap={5} position="relative">
+              <ChosePlatform
+                selectedPlatform={
+                  selectedPlatform
+                    ? selectedPlatform === "PC (Windows)"
+                      ? "PC Windows games"
+                      : selectedPlatform === "Web Browser"
+                      ? "Browser games"
+                      : selectedPlatform === "PC (Windows), Web Browser"
+                      ? "Both PC and Browser"
+                      : "All games"
+                    : "Platform"
+                }
+                onchange={(value) => setPlatform(value)}
+              />
+              <SortSelector
+                selectedOrder={selectedOrder ? selectedOrder : "Relevance"}
+                onchange={(value) => setOrder(value)}
+                width={
+                  selectedPlatform === undefined
+                    ? "105px"
+                    : selectedPlatform === "All"
+                    ? "112px"
                     : selectedPlatform === "PC (Windows), Web Browser"
-                    ? "Both PC and Browser"
-                    : "All games"
-                  : "Platform"
-              }
-              onchange={(value) => setPlatform(value)}
-            />
-            <SortSelector
-              selectedOrder={selectedOrder ? selectedOrder : "Relevance"}
-              onchange={(value) => setOrder(value)}
-              width={
-                selectedPlatform === undefined
-                  ? "105px"
-                  : selectedPlatform === "All"
-                  ? "112px"
-                  : selectedPlatform === "PC (Windows), Web Browser"
-                  ? "183px"
-                  : selectedPlatform === "Web Browser"
-                  ? "147px"
-                  : "175px"
-              }
-            />
-          </HStack>
+                    ? "183px"
+                    : selectedPlatform === "Web Browser"
+                    ? "147px"
+                    : "175px"
+                }
+              />
+            </HStack>
+          </Box>
 
           {noSearch ? (
             <Text

@@ -14,7 +14,12 @@ const NavBar = ({ click, onSearch }: Props) => {
   const { colorMode } = useColorMode();
 
   return (
-    <HStack justifyContent="space-between" padding={"10px"}>
+    <HStack
+      justifyContent="space-between"
+      paddingX={"10px"}
+      paddingTop={"10px"}
+      paddingBottom={0}
+    >
       <HStack>
         <Image src={logo} height="60px" borderRadius={"20px"} />
         <Link

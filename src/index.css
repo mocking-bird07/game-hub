@@ -6,7 +6,8 @@
 }
 .genre {
     overflow-y: auto; 
-    height:470.672px
+    height:490.672px;
+    width: 250px;
 }
 .grid{
     overflow-y: auto;
@@ -108,4 +109,22 @@
 
 .genre2::-webkit-scrollbar-thumb:hover, .grid2::-webkit-scrollbar-thumb:hover {
     background: black; 
+}
+
+.heading {
+    animation: backgroundShuffle 30s infinite;
+    background-size: cover;  
+    background-position: center;  
+    width: 1080px;  
+    height: 165px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); 
+}
+
+@keyframes backgroundShuffle {
+    0%   { background-image: url('../src/assets/action multiplayer copy.jpg'); }
+    16% {background-image: url('../src/assets/battleroyale crop.jpg');}
+    32%  { background-image: url('../src/assets/360_F_499933117_ZAUBfv3P1HEOsZDrnkbNCt4jc3AodArl.webp'); }
+    64%  { background-image: url('../src/assets/shooter.webp'); }
+    80%  {background-image: url('../src/assets/realistic icon for racing game with backview of a red Ferrari with the backlight turned on and in a fierce race at night with crashing and fire crop.jpg');}
+    100% { background-image: url('../src/assets/two fighters facing each other with torn clothes in an intense and realistic fighting game crop.jpg'); }
 }

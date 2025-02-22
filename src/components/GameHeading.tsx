@@ -7,7 +7,7 @@ interface Props {
 
 const GameHeading = ({ platform, genre }: Props) => {
   return (
-    <Heading marginY={10} fontSize={"5xl"} as={"h1"}>
+    <Heading color={"white"} paddingY={10} fontSize={"5xl"} as={"h1"}>
       {platform === "PC (Windows), Web Browser"
         ? "Web browser and PC "
         : platform === "Web Browser"
