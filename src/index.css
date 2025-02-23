@@ -112,7 +112,7 @@
 }
 
 .heading {
-    animation: backgroundShuffle 100s infinite;
+    animation: backgroundShuffle 60s infinite;
     background-size: cover;  
     background-position: center;  
     width: 1080px;  
