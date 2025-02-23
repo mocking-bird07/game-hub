@@ -11,7 +11,7 @@
 }
 .grid{
     overflow-y: auto;
-    height: 348px;
+    height: 350px;
     padding-right: 10px;
 }
 
@@ -35,28 +35,54 @@
 }
 
 .realGenre{
-    font-weight: normal;
-    text-decoration: none;
+    padding-left: 8px;
+    width: 220px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 7px;
 }
 .realGenre2{
-    color: cyan;
-    font-weight: bold;
+    background-color: rgb(34, 33, 33);
+    padding-left: 8px;
+    width: 220px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 7px;
 }
 .realGenreLight{
-    font-weight: normal;
-    text-decoration: none;
+    padding-left: 8px;
+    width: 220px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 7px;
 }
 .realGenreLight2{
-    color: black;
-    font-weight: bold;
+    background-color: rgb(216, 213, 213);
+    padding-left: 8px;
+    width: 220px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 7px;
 }
 .realGenreLight:hover{
-    color: black;
-    text-decoration: underline;
+    background-color: rgb(216, 213, 213);
+    cursor: pointer;
 }
 .realGenre:hover{
-    color: cyan;
-    text-decoration: underline;
+    background-color: rgb(34, 33, 33);
+    cursor: pointer;
 }
 .butto:hover{
     color: cyan;
@@ -84,11 +110,12 @@
 
 .genre2 {
     overflow-y: auto; 
-    height:470.672px
+    height:470.672px;
+    width: 250px;
 }
 .grid2{
     overflow-y: auto;
-    height: 340px;
+    height: 350px;
     padding-right: 10px;
 }
 

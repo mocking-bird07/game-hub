@@ -1,5 +1,5 @@
 import games from "@/services/games";
-import { Box, Heading, HStack, Image, Link } from "@chakra-ui/react";
+import { Box, Heading, HStack, Image, Link, Text } from "@chakra-ui/react";
 import actionMultiplayer from "../assets/action multiplayer.webp";
 import actionGame from "../assets/actionGame.webp";
 import shooter from "../assets/shooter.webp";
@@ -60,7 +60,7 @@ const GameGenre = ({ click, weight }: Props) => {
 
   return (
     <>
-      <Heading ml={2} marginBottom={3} fontSize={"2xl"}>
+      <Heading ml={"20px"} marginBottom={3} fontSize={"2xl"}>
         Genres
       </Heading>
       <Box className={colorMode === "dark" ? "genre" : "genre2"}>
@@ -68,30 +68,23 @@ const GameGenre = ({ click, weight }: Props) => {
           <HStack
             key={po.name}
             onClick={() => click(po.name)}
-            paddingY={"5px"}
-            ml={2}
-            mr={10}
             whiteSpace={"nowrap"}
+            className={
+              colorMode === "dark"
+                ? weight !== undefined
+                  ? po.name === weight
+                    ? "realGenre2"
+                    : "realGenre"
+                  : "realGenre"
+                : weight !== undefined
+                ? po.name === weight
+                  ? "realGenreLight2"
+                  : "realGenreLight"
+                : "realGenreLight"
+            }
           >
             <Image borderRadius="5px" boxSize={"32px"} src={po.image} />
-            <Link
-              className={
-                colorMode === "dark"
-                  ? weight !== undefined
-                    ? po.name === weight
-                      ? "realGenre2"
-                      : "realGenre"
-                    : "realGenre"
-                  : weight !== undefined
-                  ? po.name === weight
-                    ? "realGenreLight2"
-                    : "realGenreLight"
-                  : "realGenreLight"
-              }
-              fontSize={"lg"}
-            >
-              {po.name}
-            </Link>
+            <Text fontSize={"lg"}> {po.name}</Text>
           </HStack>
         ))}
       </Box>
