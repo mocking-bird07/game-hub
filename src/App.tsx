@@ -8,6 +8,7 @@ import ChosePlatform from "./components/ChosePlatform";
 import SortSelector from "./components/SortSelector";
 import GameHeading from "./components/GameHeading";
 import "../src/index.css";
+import { useColorMode } from "@/components/ui/color-mode";
 
 interface Game {
   id: number;
@@ -29,6 +30,7 @@ function App() {
   let [selectedPlatform, setPlatform] = useState<string>();
   let [selectedOrder, setOrder] = useState<string>();
   let [searchText, setSearch] = useState<string>();
+  const { colorMode } = useColorMode();
 
   let gameDisplay = selectedGenre
     ? selectedPlatform
@@ -179,7 +181,8 @@ function App() {
           paddingTop={"10px"}
         >
           <Box
-            className="heading"
+            className={colorMode === "dark" ? "heading" : "heading2"}
+            width={{ base: "100%", md: "100%", lg: "1080px" }}
             paddingLeft={"40px"}
             paddingBottom={"20px"}
             mb={3}

@@ -1,0 +1,212 @@
+
+
+.container {
+    display: flex;
+    overflow: hidden;
+}
+.genre {
+    overflow-y: auto; 
+    height:494px;
+    width: 250px;
+}
+.grid{
+    overflow-y: auto;
+    height: 350px;
+    padding-right: 10px;
+}
+
+
+.genre::-webkit-scrollbar, .grid::-webkit-scrollbar {
+    width: 5px; 
+}
+
+.genre::-webkit-scrollbar-track, .grid::-webkit-scrollbar-track {
+    background: none; 
+}
+
+.genre::-webkit-scrollbar-thumb, .grid::-webkit-scrollbar-thumb {
+    background: cyan;
+    border-radius: 10px; 
+    display: block;
+}
+
+.genre::-webkit-scrollbar-thumb:hover, .grid::-webkit-scrollbar-thumb:hover {
+    background: rgb(17, 136, 136); 
+}
+
+.realGenre{
+    padding-left: 8px;
+    width: 220px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.realGenre2{
+    background-color: rgb(34, 33, 33);
+    padding-left: 8px;
+    width: 220px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
+}
+.realGenreLight{
+    padding-left: 8px;
+    width: 220px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
+}
+.realGenreLight2{
+    background-color: rgb(216, 213, 213);
+    padding-left: 8px;
+    width: 220px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
+}
+.realGenreLight:hover{
+    background-color: rgb(216, 213, 213);
+    cursor: pointer;
+}
+.realGenre:hover{
+    background-color: rgb(34, 33, 33);
+    cursor: pointer;
+}
+.butto:hover{
+    color: cyan;
+}
+.sun{
+    color: yellow;
+    display: inline-block;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.sun:hover{
+    transform: rotate(45deg);
+}
+.moon{
+    color: black;
+    display: inline-block;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.moon:hover{
+    transform: rotate(45deg);
+}
+
+
+
+.genre2 {
+    overflow-y: auto; 
+    height:494px;
+    width: 250px;
+}
+.grid2{
+    overflow-y: auto;
+    height: 350px;
+    padding-right: 10px;
+}
+
+
+.genre2::-webkit-scrollbar, .grid2::-webkit-scrollbar {
+    width: 5px; 
+}
+
+.genre2::-webkit-scrollbar-track, .grid2::-webkit-scrollbar-track {
+    background: none; 
+}
+
+.genre2::-webkit-scrollbar-thumb, .grid2::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px; 
+    display: block;
+}
+
+.genre2::-webkit-scrollbar-thumb:hover, .grid2::-webkit-scrollbar-thumb:hover {
+    background: black; 
+}
+
+.card{
+    cursor: pointer;
+}
+
+.heading {
+    animation: backgroundShuffle 60s infinite;
+    background-size: cover;  
+    background-position: center;   
+    height: 165px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); 
+}
+
+.home{
+    background-position: center;
+    background-size: cover;
+    filter: blur(10px);
+    background-repeat: no-repeat;
+    height: 610px;
+    background-image: url('./assets/2D black gangster with black durag, no helmet, light blue Hornets jersey with neck and arm tattoos, sunglasses, very wide black pants, pink converse shoes, sitting, with a very black background and pink durag.png');
+}
+
+.heading2{
+    animation: backgroundShuffle 60s infinite;
+    background-size: cover;  
+    background-position: center;    
+    height: 165px;
+    box-shadow: 0 0 20px black; 
+}
+
+@keyframes backgroundShuffle {
+    0%   { background-image: url('../src/assets/action multiplayer copy.jpg'); }
+    10% {background-image: url('../src/assets/battleroyale crop.jpg');}
+    20% {background-image: url('../src/assets/ancient war on horse and dragons.webp');}
+    30% {background-image: url('../src/assets/a floor full of basketball crop.jpg');}
+    40% {background-image: url('../src/assets/two white cube dice on a casino table from a birds eye view.webp');}
+    50% {background-image: url('../src/assets/sword.jpg');}
+    60%  { background-image: url('../src/assets/360_F_499933117_ZAUBfv3P1HEOsZDrnkbNCt4jc3AodArl.webp'); }
+    70%  { background-image: url('../src/assets/shooter.webp'); }
+    80% {background-image: url('../src/assets/anime characters fighting, big jacked boys, intense crop.jpg');}
+    90%  {background-image: url('../src/assets/realistic icon for racing game with backview of a red Ferrari with the backlight turned on and in a fierce race at night with crashing and fire crop.jpg');}
+    100% { background-image: url('../src/assets/two fighters facing each other with torn clothes in an intense and realistic fighting game crop.jpg'); }
+}
+
+.homenav{
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.homebody{
+    color: aqua;
+    font-size: 70px;
+    font-family: 'Anton', sans-serif;
+}
+
+.homebody2{
+    color: rgb(223, 18, 137);
+    font-size: 70px;
+    font-family: 'Anton', sans-serif;
+}
+
+.forma{
+    width: 200px;
+   
+   
+}

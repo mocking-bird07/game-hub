@@ -24,7 +24,9 @@ const Search = ({ onSearch }: Props) => {
     >
       <InputGroup
         startElement={
-          <LuSearch color={colorMode === "dark" ? "cyan" : "purple"} />
+          <LuSearch
+            color={colorMode === "dark" ? "rgb(223, 18, 137)" : "purple"}
+          />
         }
         ml={{ lg: "10px", base: 0 }}
         mr={{ lg: "20px", base: 0 }}
@@ -38,9 +40,9 @@ const Search = ({ onSearch }: Props) => {
           ref={ref}
           size={{ lg: "lg", base: "sm" }}
           width={"100%"}
-          background={colorMode === "dark" ? "cyan.900" : "purple.200"}
-          colorPalette={colorMode === "dark" ? "cyan" : "purple"}
-          borderColor={colorMode === "dark" ? "cyan" : "purple"}
+          background={colorMode === "dark" ? "rgb(63, 7, 40)" : "purple.200"}
+          colorPalette={colorMode === "dark" ? "rgb(223, 18, 137)" : "purple"}
+          borderColor={colorMode === "dark" ? "rgb(223, 18, 137)" : "purple"}
           borderRadius={20}
           borderWidth={"1px"}
           placeholder="Search games..."

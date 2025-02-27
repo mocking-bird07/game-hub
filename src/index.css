@@ -1,12 +1,15 @@
 
-
+body{
+    
+    height: 598px;
+}
 .container {
     display: flex;
     overflow: hidden;
 }
 .genre {
     overflow-y: auto; 
-    height:490.672px;
+    height:494px;
     width: 250px;
 }
 .grid{
@@ -43,6 +46,8 @@
     padding-bottom: 5px;
     padding-top: 5px;
     border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 .realGenre2{
     background-color: rgb(34, 33, 33);
@@ -54,6 +59,7 @@
     padding-bottom: 5px;
     padding-top: 5px;
     border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
 }
 .realGenreLight{
     padding-left: 8px;
@@ -64,6 +70,7 @@
     padding-bottom: 5px;
     padding-top: 5px;
     border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
 }
 .realGenreLight2{
     background-color: rgb(216, 213, 213);
@@ -75,6 +82,7 @@
     padding-bottom: 5px;
     padding-top: 5px;
     border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
 }
 .realGenreLight:hover{
     background-color: rgb(216, 213, 213);
@@ -110,7 +118,7 @@
 
 .genre2 {
     overflow-y: auto; 
-    height:470.672px;
+    height:494px;
     width: 250px;
 }
 .grid2{
@@ -138,13 +146,32 @@
     background: black; 
 }
 
+.card{
+    cursor: pointer;
+}
+
 .heading {
     animation: backgroundShuffle 60s infinite;
     background-size: cover;  
-    background-position: center;  
-    width: 1080px;  
+    background-position: center;   
     height: 165px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); 
+}
+
+.home{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 610px;
+    background-image: url('./assets/2D black gangster with black durag, no helmet, light blue Hornets jersey with neck and arm tattoos, sunglasses, very wide black pants, pink converse shoes, sitting, with a very black background and pink durag.png');
+}
+
+.heading2{
+    animation: backgroundShuffle 60s infinite;
+    background-size: cover;  
+    background-position: center;    
+    height: 165px;
+    box-shadow: 0 0 20px black; 
 }
 
 @keyframes backgroundShuffle {
@@ -159,4 +186,28 @@
     80% {background-image: url('../src/assets/anime characters fighting, big jacked boys, intense crop.jpg');}
     90%  {background-image: url('../src/assets/realistic icon for racing game with backview of a red Ferrari with the backlight turned on and in a fierce race at night with crashing and fire crop.jpg');}
     100% { background-image: url('../src/assets/two fighters facing each other with torn clothes in an intense and realistic fighting game crop.jpg'); }
+}
+
+.homenav{
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.homebody{
+    color: aqua;
+    font-size: 70px;
+    font-family: 'Anton', sans-serif;
+}
+
+.homebody2{
+    color: rgb(223, 18, 137);
+    font-size: 70px;
+    font-family: 'Anton', sans-serif;
+}
+
+.forma{
+    width: 200px;
+   
+   
 }

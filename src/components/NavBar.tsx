@@ -1,5 +1,5 @@
 import { HStack, Icon, Image, Link } from "@chakra-ui/react";
-import logo from "../assets/game.webp";
+import logo from "../assets/dog.png";
 import ColorSwitch from "./colorSwitch";
 import { FaHouseChimney } from "react-icons/fa6";
 import Search from "./Search";
