@@ -1,4 +1,4 @@
-import { HStack, Text, Image, Box, Link } from "@chakra-ui/react";
+import { HStack, Text, Image, Box, Link, Button } from "@chakra-ui/react";
 import { SignIn, SignUp } from "./Forma";
 import { useState } from "react";
 
@@ -8,26 +8,45 @@ const Homebody = () => {
   const [signUp, su] = useState(false);
 
   return (
-    <div>
-      <Box paddingBottom={"10px"} display={"flex"} flexDirection={"column"}>
+    <div className={signUp === true ? "hb" : ""}>
+      <Box
+        alignItems={"center"}
+        paddingBottom={"10px"}
+        display={"flex"}
+        flexDirection={"column"}
+      >
         <HStack
           margin={0}
-          padding={0}
+          paddingLeft={50}
           gap={"0px"}
           display={"flex"}
           justifyContent={"center"}
         >
           <Text className="homebody">Game</Text>
         </HStack>
-        <Text
-          paddingLeft={160}
-          mt={"-40px"}
-          display={"flex"}
-          justifyContent={"center"}
-          className="homebody2"
-        >
-          Hub
-        </Text>
+        <HStack>
+          <Text
+            paddingLeft={19}
+            className="mood"
+            fontFamily={"Dancing Script, cursive"}
+            color={"rgb(223, 18, 137)"}
+            fontSize={"80px"}
+            mt={-20}
+            ml={-10}
+            mr={-18}
+          >
+            Vibes
+          </Text>
+          <Text
+            paddingLeft={0}
+            mt={"-40px"}
+            display={"flex"}
+            justifyContent={"center"}
+            className="homebody2"
+          >
+            Hub
+          </Text>
+        </HStack>
         <Text
           fontFamily={"Great Vibes, cursive"}
           fontSize={"40px"}
@@ -41,6 +60,20 @@ const Homebody = () => {
         >
           Best way to expereience game vibes
         </Text>
+        {signIn === false && signUp === false && (
+          <Button
+            className="bu"
+            width={"fit-content"}
+            display={"flex"}
+            justifyContent={"center"}
+            onClick={() => {
+              si(true);
+              su(false);
+            }}
+          >
+            Get started
+          </Button>
+        )}
         {signIn && <SignIn />}
         {signUp && <SignUp />}
         <HStack

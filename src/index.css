@@ -1,20 +1,34 @@
 
-body{
-    
-    height: 598px;
-}
 .container {
     display: flex;
     overflow: hidden;
 }
+
+.bu{
+    border-radius: 30px;
+    border-width: 2px;
+    color: rgb(223, 18, 137);
+    margin-top: 60px;
+    border-color: rgb(223, 18, 137);
+    font-size: 20px;
+    padding: 30px;
+    background-color: black;
+    font-weight: bold;
+}
+
+.bu:hover{
+    color: black;
+    background-color: white;
+}
+
 .genre {
     overflow-y: auto; 
-    height:494px;
+    height:560px;
     width: 250px;
 }
 .grid{
     overflow-y: auto;
-    height: 350px;
+    height: 419px;
     padding-right: 10px;
 }
 
@@ -118,12 +132,12 @@ body{
 
 .genre2 {
     overflow-y: auto; 
-    height:494px;
+    height:560px;
     width: 250px;
 }
 .grid2{
     overflow-y: auto;
-    height: 350px;
+    height: 419px;
     padding-right: 10px;
 }
 
@@ -162,9 +176,15 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 610px;
-    background-image: url('./assets/2D black gangster with black durag, no helmet, light blue Hornets jersey with neck and arm tattoos, sunglasses, very wide black pants, pink converse shoes, sitting, with a very black background and pink durag.png');
+    height: 699px;
 }
+
+.home2{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 699px;
+    background-image: url('./assets/gangtab.png');}
 
 .heading2{
     animation: backgroundShuffle 60s infinite;
@@ -201,13 +221,36 @@ body{
 }
 
 .homebody2{
-    color: rgb(223, 18, 137);
+    color: cyan;
     font-size: 70px;
     font-family: 'Anton', sans-serif;
+    margin-left: -20px;
 }
 
 .forma{
     width: 200px;
-   
-   
+    display: grid;
+}
+
+.mood{
+    transform: rotate(-25deg);
+}
+
+.inp{
+    margin-bottom: 6px;
+    color: cyan;
+    background: rgb(1, 15, 15);
+    border-width: 1px;
+    border-color: cyan;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.lab{
+    margin-top: 4px;
+    color: cyan;
+}
+
+.hb{
+    margin-top: -20px;
 }
