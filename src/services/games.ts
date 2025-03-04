@@ -2,6 +2,20 @@ import pic from '../assets/GODS OGRIIN.webp'
 
 let games = [
   {
+    id: 600,
+    title: "FC 25",
+    thumbnail: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2669320/header.jpg?t=1740132694",
+    short_description: "EA SPORTS FC™ 25 gives you more ways to win for the club. Team up with friends in your favourite modes with the new 5v5 Rush, and manage your club to victory as FC IQ delivers more tactical control than ever before.",
+    game_url: "https://store.steampowered.com/app/2669320/EA_SPORTS_FC_25/",
+    genre: "Sports",
+    platform: "PC (Windows)",
+    publisher: "Electronic Arts",
+    developer: "EA Canada, EA Roma",
+    release_date: "2024-09-27",
+    critic_score: 91,
+    freetogame_profile_url: "https://store.steampowered.com/app/2669320/EA_SPORTS_FC_25/"
+  },
+  {
     id: 582,
     title: "Tarisland",
     thumbnail: "https://www.freetogame.com/g/582/thumbnail.jpg",
@@ -14,6 +28,20 @@ let games = [
     release_date: "2024-06-22",
     critic_score: 91,
     freetogame_profile_url: "https://www.freetogame.com/tarisland"
+  },
+  {
+    id: 603,
+    title: "NBA 2K25",
+    thumbnail: "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2878980/header.jpg?t=1740153913",
+    short_description: "Command every court with authenticity and realism Powered by ProPLAY™, giving you ultimate control over how you play in NBA 2K25. Define your legacy in MyCAREER, MyTEAM, MyNBA, and The W.",
+    game_url: "https://store.steampowered.com/app/2878980/NBA_2K25/",
+    genre: "Sports",
+    platform: "PC (Windows)",
+    publisher: "2K",
+    developer: "Visual Concepts",
+    release_date: "24-10-18",
+    critic_score: 91,
+    freetogame_profile_url: "https://store.steampowered.com/app/2878980/NBA_2K25/"
   },
   {
     id: 540,

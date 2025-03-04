@@ -26,6 +26,7 @@ interface Game {
 }
 
 function App() {
+  console.log(window.screen.height);
   let [selectedGenre, setgenre] = useState<string>();
   let [selectedPlatform, setPlatform] = useState<string>();
   let [selectedOrder, setOrder] = useState<string>();

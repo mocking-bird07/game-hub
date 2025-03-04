@@ -1,4 +1,4 @@
-import { HStack, Text, Image, Box, Link, Button } from "@chakra-ui/react";
+import { HStack, Text, Box, Link, Button } from "@chakra-ui/react";
 import { SignIn, SignUp } from "./Forma";
 import { useState } from "react";
 
