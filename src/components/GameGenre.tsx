@@ -1,5 +1,5 @@
 import games from "@/services/games";
-import { Box, Heading, HStack, Image, Link, Text } from "@chakra-ui/react";
+import { Box, Heading, HStack, Image, Text } from "@chakra-ui/react";
 import actionMultiplayer from "../assets/action multiplayer.webp";
 import actionGame from "../assets/actionGame.webp";
 import shooter from "../assets/shooter.webp";
