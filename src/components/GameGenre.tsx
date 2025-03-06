@@ -27,12 +27,6 @@ const GameGenre = ({ click, weight }: Props) => {
   let ug = [""];
   const { colorMode } = useColorMode();
 
-  games.forEach((g) => {
-    if (g.release_date === undefined) {
-      console.log(g);
-    }
-  });
-
   gameGenre = games.map((game) => game.genre);
   gameGenre.forEach((g) => {
     if (ug.includes(g) === false) {
