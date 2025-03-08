@@ -120,8 +120,13 @@ function App() {
         });
       });
       gameDisplay = newDisplay2;
-    } else {
+    } else if (
+      selectedOrder === "Relevance" ||
+      selectedOrder === "Average rating" ||
+      selectedOrder === "Popularity"
+    ) {
       gameDisplay = games;
+      setOrder("");
     }
   }
 

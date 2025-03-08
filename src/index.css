@@ -164,7 +164,7 @@
     cursor: pointer;
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0;
+    animation-range: entry 0 ;
 }
 
 .heading {
@@ -261,7 +261,7 @@
 @keyframes appear{
     from{
         opacity: 0;
-        scale: 0.5;
+        scale: 0.8;
     }
     to{
         opacity: 1;
